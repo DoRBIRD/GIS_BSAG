@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/WMS_MS_Capabilities.dtd"
+ [
+ <!ELEMENT VendorSpecificCapabilities EMPTY>
+ ]>  <!-- end of DOCTYPE declaration -->
+<WMT_MS_Capabilities version="1.1.1">
+<Service>
+  <Name>OGC:WMS</Name>
+  <Title>WMS Geoinformation Bremen</Title>
+  <Abstract>WMS Geoinformation Bremen.</Abstract>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://geo.bremen.de/"/>
+  <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson></ContactPerson>
+        <ContactOrganization>GeoInformation Bremen</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition></ContactPosition>
+      <ContactAddress>
+        <AddressType>postal</AddressType>
+        <Address>Lloydstraße 4</Address>
+        <City>Bremen</City>
+        <StateOrProvince></StateOrProvince>
+        <PostCode>28217</PostCode>
+        <Country>Deutschland</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone></ContactVoiceTelephone>
+      <ContactFacsimileTelephone></ContactFacsimileTelephone>
+      <ContactElectronicMailAddress>bremenviewer@geo.bremen.de</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>Entsprechend Lizenzvereinbarung</Fees>
+  <AccessConstraints>none</AccessConstraints>
+</Service>
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <Format>application/vnd.ogc.wms_xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://gdi1.geo.bremen.de/mapproxy/Apps4Bremen/service?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <GetMap>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/gif</Format>
+        <Format>image/GeoTIFF</Format>
+        <Format>image/tiff</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://gdi1.geo.bremen.de/mapproxy/Apps4Bremen/service?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetMap>
+    <GetFeatureInfo>
+      <Format>text/plain</Format>
+      <Format>text/html</Format>
+      <Format>application/vnd.ogc.gml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://gdi1.geo.bremen.de/mapproxy/Apps4Bremen/service?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetFeatureInfo>
+  </Request>
+  <Exception>
+    <Format>application/vnd.ogc.se_xml</Format>
+    <Format>application/vnd.ogc.se_inimage</Format>
+    <Format>application/vnd.ogc.se_blank</Format>
+  </Exception>
+  <Layer>
+    <Title>WMS Geoinformation Bremen</Title>
+    <SRS>EPSG:31467</SRS>
+    <SRS>EPSG:31466</SRS>
+    <SRS>EPSG:4326</SRS>
+    <SRS>EPSG:25831</SRS>
+    <SRS>EPSG:25833</SRS>
+    <SRS>EPSG:25832</SRS>
+    <SRS>EPSG:31468</SRS>
+    <SRS>EPSG:900913</SRS>
+    <SRS>EPSG:4258</SRS>
+    <SRS>EPSG:31467</SRS>
+    <LatLonBoundingBox minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+    <BoundingBox SRS="EPSG:31467" minx="3456216.96957" miny="5870545.27949" maxx="3500221.25165" maxy="5920141.88698" />
+    <BoundingBox SRS="EPSG:31466" minx="2656115.45678" miny="5873127.30747" maxx="2701728.1451" maxy="5924148.08912" />
+    <BoundingBox SRS="EPSG:4326" minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+    <BoundingBox SRS="EPSG:25831" minx="855289.488174" miny="5882026.92038" maxx="902912.685985" maxy="5934813.6708" />
+    <BoundingBox SRS="EPSG:25833" minx="53473.4973779" miny="5885486.43167" maxx="101533.467215" maxy="5938656.6307" />
+    <BoundingBox SRS="EPSG:25832" minx="456162.913646" miny="5868637.40208" maxx="500149.709911" maxy="5918214.93009" />
+    <BoundingBox SRS="EPSG:31468" minx="4254730.306" miny="5874749.84349" maxx="4300784.50835" maxy="5926160.11183" />
+    <BoundingBox SRS="EPSG:900913" minx="929214.931854" miny="6976959.01755" maxx="1002123.56161" maxy="7059426.93579" />
+    <BoundingBox SRS="EPSG:4258" minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+    <ScaleHint min="0.014" max="1381.068" />
+    <Layer>
+      <Name>Apps4Bremen_DSK10</Name>
+      <Title>Digitale Straßenkarte 1:10.000</Title>
+      <LatLonBoundingBox minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+      <BoundingBox SRS="EPSG:31467" minx="3456665.0" miny="5870740.0" maxx="3500219.0" maxy="5919944.0" />
+      <BoundingBox SRS="EPSG:31466" minx="2656121.9702" miny="5873141.99023" maxx="2701717.75184" maxy="5924148.08912" />
+      <BoundingBox SRS="EPSG:4326" minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+      <BoundingBox SRS="EPSG:25831" minx="855304.335705" miny="5882060.36545" maxx="902894.134674" maxy="5934813.6709" />
+      <BoundingBox SRS="EPSG:25833" minx="53920.5215517" miny="5885680.96777" maxx="101533.467223" maxy="5938459.20809" />
+      <BoundingBox SRS="EPSG:25832" minx="456610.765874" miny="5868832.0453" maxx="500148.171832" maxy="5918017.12179" />
+      <BoundingBox SRS="EPSG:31468" minx="4255178.09556" miny="5874944.58509" maxx="4300784.50835" maxy="5925962.33709" />
+      <BoundingBox SRS="EPSG:900913" minx="929214.931854" miny="6976959.01755" maxx="1002123.56161" maxy="7059426.93579" />
+      <BoundingBox SRS="EPSG:4258" minx="8.34727975516" miny="52.9673401618" maxx="9.00222911967" maxy="53.4112158966" />
+      <ScaleHint min="0.014" max="1381.068" />
+    </Layer>
+    <Layer>
+      <Name>Orthophotos_2012</Name>
+      <Title>Orthophoto 2012</Title>
+      <LatLonBoundingBox minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+      <BoundingBox SRS="EPSG:31467" minx="3456665.0" miny="5870740.0" maxx="3500219.0" maxy="5919944.0" />
+      <BoundingBox SRS="EPSG:31466" minx="2656121.9702" miny="5873141.99023" maxx="2701717.75184" maxy="5924148.08912" />
+      <BoundingBox SRS="EPSG:4326" minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+      <BoundingBox SRS="EPSG:25831" minx="855304.335705" miny="5882060.36545" maxx="902894.134674" maxy="5934813.6709" />
+      <BoundingBox SRS="EPSG:25833" minx="53920.5215517" miny="5885680.96777" maxx="101533.467223" maxy="5938459.20809" />
+      <BoundingBox SRS="EPSG:25832" minx="456610.765874" miny="5868832.0453" maxx="500148.171832" maxy="5918017.12179" />
+      <BoundingBox SRS="EPSG:31468" minx="4255178.09556" miny="5874944.58509" maxx="4300784.50835" maxy="5925962.33709" />
+      <BoundingBox SRS="EPSG:900913" minx="929214.931854" miny="6976959.01755" maxx="1002123.56161" maxy="7059426.93579" />
+      <BoundingBox SRS="EPSG:4258" minx="8.34727975516" miny="52.9673401618" maxx="9.00222911967" maxy="53.4112158966" />
+      <ScaleHint min="0.014" max="1381.068" />
+    </Layer>
+    <Layer>
+      <Name>Apps4Bremen_Stadtplan</Name>
+      <Title>Stadtplan</Title>
+      <LatLonBoundingBox minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+      <BoundingBox SRS="EPSG:31467" minx="3456665.0" miny="5870740.0" maxx="3500219.0" maxy="5919944.0" />
+      <BoundingBox SRS="EPSG:31466" minx="2656121.9702" miny="5873141.99023" maxx="2701717.75184" maxy="5924148.08912" />
+      <BoundingBox SRS="EPSG:4326" minx="8.34727975516" miny="52.9673401609" maxx="9.00222911967" maxy="53.4112158957" />
+      <BoundingBox SRS="EPSG:25831" minx="855304.335705" miny="5882060.36545" maxx="902894.134674" maxy="5934813.6709" />
+      <BoundingBox SRS="EPSG:25833" minx="53920.5215517" miny="5885680.96777" maxx="101533.467223" maxy="5938459.20809" />
+      <BoundingBox SRS="EPSG:25832" minx="456610.765874" miny="5868832.0453" maxx="500148.171832" maxy="5918017.12179" />
+      <BoundingBox SRS="EPSG:31468" minx="4255178.09556" miny="5874944.58509" maxx="4300784.50835" maxy="5925962.33709" />
+      <BoundingBox SRS="EPSG:900913" minx="929214.931854" miny="6976959.01755" maxx="1002123.56161" maxy="7059426.93579" />
+      <BoundingBox SRS="EPSG:4258" minx="8.34727975516" miny="52.9673401618" maxx="9.00222911967" maxy="53.4112158966" />
+      <ScaleHint min="0.014" max="276.214" />
+    </Layer>
+  </Layer>
+</Capability>
+</WMT_MS_Capabilities>

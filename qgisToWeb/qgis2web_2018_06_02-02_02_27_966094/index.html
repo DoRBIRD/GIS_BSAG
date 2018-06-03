@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/Linie10Stationen_0.js"></script>
+        <script src="data/Linie8Stationen_1.js"></script>
+        <script src="data/Linie6Stationen_2.js"></script>
+        <script src="data/Linie4Stationen_3.js"></script>
+        <script src="data/Linie3Stationen_4.js"></script>
+        <script src="data/Linie2Stationen_5.js"></script>
+        <script src="data/Linie1Stationen_6.js"></script>
+        <script src="data/BremenBoundBox_8.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[53.04631467218583,8.6878471728158],[53.12066583119975,8.880051670393296]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        function pop_Linie10Stationen_0(feature, layer) {
+        }
+
+        function style_Linie10Stationen_0_0() {
+            return {
+                pane: 'pane_Linie10Stationen_0',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(107,22,182,1.0)',
+            }
+        }
+        map.createPane('pane_Linie10Stationen_0');
+        map.getPane('pane_Linie10Stationen_0').style.zIndex = 400;
+        map.getPane('pane_Linie10Stationen_0').style['mix-blend-mode'] = 'normal';
+        var layer_Linie10Stationen_0 = new L.geoJson(json_Linie10Stationen_0, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Linie10Stationen_0',
+            onEachFeature: pop_Linie10Stationen_0,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Linie10Stationen_0_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Linie10Stationen_0);
+        map.addLayer(layer_Linie10Stationen_0);
+        function pop_Linie8Stationen_1(feature, layer) {
+        }
+
+        function style_Linie8Stationen_1_0() {
+            return {
+                pane: 'pane_Linie8Stationen_1',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(86,229,15,1.0)',
+            }
+        }
+        map.createPane('pane_Linie8Stationen_1');
+        map.getPane('pane_Linie8Stationen_1').style.zIndex = 401;
+        map.getPane('pane_Linie8Stationen_1').style['mix-blend-mode'] = 'normal';
+        var layer_Linie8Stationen_1 = new L.geoJson(json_Linie8Stationen_1, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Linie8Stationen_1',
+            onEachFeature: pop_Linie8Stationen_1,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Linie8Stationen_1_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Linie8Stationen_1);
+        map.addLayer(layer_Linie8Stationen_1);
+        function pop_Linie6Stationen_2(feature, layer) {
+        }
+
+        function style_Linie6Stationen_2_0() {
+            return {
+                pane: 'pane_Linie6Stationen_2',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(232,206,2,1.0)',
+            }
+        }
+        map.createPane('pane_Linie6Stationen_2');
+        map.getPane('pane_Linie6Stationen_2').style.zIndex = 402;
+        map.getPane('pane_Linie6Stationen_2').style['mix-blend-mode'] = 'normal';
+        var layer_Linie6Stationen_2 = new L.geoJson(json_Linie6Stationen_2, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Linie6Stationen_2',
+            onEachFeature: pop_Linie6Stationen_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Linie6Stationen_2_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Linie6Stationen_2);
+        map.addLayer(layer_Linie6Stationen_2);
+        function pop_Linie4Stationen_3(feature, layer) {
+        }
+
+        function style_Linie4Stationen_3_0() {
+            return {
+                pane: 'pane_Linie4Stationen_3',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(224,0,3,1.0)',
+            }
+        }
+        map.createPane('pane_Linie4Stationen_3');
+        map.getPane('pane_Linie4Stationen_3').style.zIndex = 403;
+        map.getPane('pane_Linie4Stationen_3').style['mix-blend-mode'] = 'normal';
+        var layer_Linie4Stationen_3 = new L.geoJson(json_Linie4Stationen_3, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Linie4Stationen_3',
+            onEachFeature: pop_Linie4Stationen_3,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Linie4Stationen_3_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Linie4Stationen_3);
+        map.addLayer(layer_Linie4Stationen_3);
+        function pop_Linie3Stationen_4(feature, layer) {
+        }
+
+        function style_Linie3Stationen_4_0() {
+            return {
+                pane: 'pane_Linie3Stationen_4',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,144,213,1.0)',
+            }
+        }
+        map.createPane('pane_Linie3Stationen_4');
+        map.getPane('pane_Linie3Stationen_4').style.zIndex = 404;
+        map.getPane('pane_Linie3Stationen_4').style['mix-blend-mode'] = 'normal';
+        var layer_Linie3Stationen_4 = new L.geoJson(json_Linie3Stationen_4, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Linie3Stationen_4',
+            onEachFeature: pop_Linie3Stationen_4,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Linie3Stationen_4_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Linie3Stationen_4);
+        map.addLayer(layer_Linie3Stationen_4);
+        function pop_Linie2Stationen_5(feature, layer) {
+        }
+
+        function style_Linie2Stationen_5_0() {
+            return {
+                pane: 'pane_Linie2Stationen_5',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(15,35,182,1.0)',
+            }
+        }
+        map.createPane('pane_Linie2Stationen_5');
+        map.getPane('pane_Linie2Stationen_5').style.zIndex = 405;
+        map.getPane('pane_Linie2Stationen_5').style['mix-blend-mode'] = 'normal';
+        var layer_Linie2Stationen_5 = new L.geoJson(json_Linie2Stationen_5, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Linie2Stationen_5',
+            onEachFeature: pop_Linie2Stationen_5,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Linie2Stationen_5_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Linie2Stationen_5);
+        map.addLayer(layer_Linie2Stationen_5);
+        function pop_Linie1Stationen_6(feature, layer) {
+        }
+
+        function style_Linie1Stationen_6_0() {
+            return {
+                pane: 'pane_Linie1Stationen_6',
+                radius: 10.0,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(28,140,1,1.0)',
+            }
+        }
+        map.createPane('pane_Linie1Stationen_6');
+        map.getPane('pane_Linie1Stationen_6').style.zIndex = 406;
+        map.getPane('pane_Linie1Stationen_6').style['mix-blend-mode'] = 'normal';
+        var layer_Linie1Stationen_6 = new L.geoJson(json_Linie1Stationen_6, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Linie1Stationen_6',
+            onEachFeature: pop_Linie1Stationen_6,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Linie1Stationen_6_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Linie1Stationen_6);
+        map.addLayer(layer_Linie1Stationen_6);
+        var overlay_OpenStreetMap_7 = L.tileLayer('http://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            opacity: 1.0
+        });
+        overlay_OpenStreetMap_7.addTo(map);
+        map.addLayer(overlay_OpenStreetMap_7);
+        function pop_BremenBoundBox_8(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['id'] !== null ? Autolinker.link(String(feature.properties['id'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_BremenBoundBox_8_0() {
+            return {
+                pane: 'pane_BremenBoundBox_8',
+                opacity: 1,
+                color: 'rgba(77,175,74,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+            }
+        }
+        map.createPane('pane_BremenBoundBox_8');
+        map.getPane('pane_BremenBoundBox_8').style.zIndex = 408;
+        map.getPane('pane_BremenBoundBox_8').style['mix-blend-mode'] = 'normal';
+        var layer_BremenBoundBox_8 = new L.geoJson(json_BremenBoundBox_8, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_BremenBoundBox_8',
+            onEachFeature: pop_BremenBoundBox_8,
+            style: style_BremenBoundBox_8_0,
+        });
+        bounds_group.addLayer(layer_BremenBoundBox_8);
+        map.addLayer(layer_BremenBoundBox_8);
+        setBounds();
+        </script>
+    </body>
+</html>
