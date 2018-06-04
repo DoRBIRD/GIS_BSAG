@@ -18,67 +18,73 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="BremenBoundBox" expanded="1" id="BremenBoundBox_7bbc71c9_8728_4472_bc5d_03ca26ec90c5" providerKey="ogr" checked="Qt::Checked" source="./Shape files/BremenBoundBox.shp">
+    <layer-tree-layer name="BremenBoundBox" checked="Qt::Checked" source="./Shape files/BremenBoundBox.shp" id="BremenBoundBox_7bbc71c9_8728_4472_bc5d_03ca26ec90c5" expanded="1" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group name="Linie1" expanded="1" checked="Qt::Checked">
+    <layer-tree-group name="Linie1" checked="Qt::Checked" expanded="1">
       <customproperties/>
-      <layer-tree-layer name="Linie1Stationen" expanded="1" id="Linie1Stationen_ea617741_1313_4d78_a53b_c9663119da58" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie1Stationen.shp">
+      <layer-tree-layer name="Linie1Stationen" checked="Qt::Checked" source="./Shape files/Linie1Stationen.shp" id="Linie1Stationen_ea617741_1313_4d78_a53b_c9663119da58" expanded="1" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="Linie1Strecken" checked="Qt::Checked" source="./Shape files/Linie1Strecken.shp" id="Linie1Strecken_2f2fe848_6d6d_4207_afe4_56744dc8cfbf" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Linie2" expanded="1" checked="Qt::Unchecked">
+    <layer-tree-group name="Linie2" checked="Qt::Checked" expanded="1">
       <customproperties/>
-      <layer-tree-layer name="Linie2Stationen" expanded="1" id="Linie2Stationen_ccb08afa_6972_42ff_9b7b_4bfbf8d718d8" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie2Stationen.shp">
+      <layer-tree-layer name="Linie2Stationen" checked="Qt::Checked" source="./Shape files/Linie2Stationen.shp" id="Linie2Stationen_ccb08afa_6972_42ff_9b7b_4bfbf8d718d8" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="Linie2Strecken" expanded="1" id="Linie2Strecken_feaf7473_ef30_4eac_bec9_b820d74e54b6" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie2Strecken.shp">
+      <layer-tree-layer name="Linie2Strecken" checked="Qt::Checked" source="./Shape files/Linie2Strecken.shp" id="Linie2Strecken_feaf7473_ef30_4eac_bec9_b820d74e54b6" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Linie3" expanded="1" checked="Qt::Checked">
+    <layer-tree-group name="Linie3" checked="Qt::Checked" expanded="0">
       <customproperties/>
-      <layer-tree-layer name="Linie3Stationen" expanded="1" id="Linie3Stationen_67ca3c22_695b_44a7_90b8_37da1e5230a4" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie3Stationen.shp">
+      <layer-tree-layer name="Linie3Stationen" checked="Qt::Checked" source="./Shape files/Linie3Stationen.shp" id="Linie3Stationen_67ca3c22_695b_44a7_90b8_37da1e5230a4" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="Linie3Strecken" expanded="1" id="Linie3Strecken_01da7c0c_f5f0_43b8_b332_bf2cbea4c9f4" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie3Strecken.shp">
+      <layer-tree-layer name="Linie3Strecken" checked="Qt::Checked" source="./Shape files/Linie3Strecken.shp" id="Linie3Strecken_01da7c0c_f5f0_43b8_b332_bf2cbea4c9f4" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Linie4" expanded="1" checked="Qt::Checked">
+    <layer-tree-group name="Linie4" checked="Qt::Checked" expanded="1">
       <customproperties/>
-      <layer-tree-layer name="Linie4Stationen" expanded="1" id="Linie4Stationen_c43a8001_4b5f_4ccc_a5df_68a48b10d789" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie4Stationen.shp">
+      <layer-tree-layer name="Linie4Stationen" checked="Qt::Checked" source="./Shape files/Linie4Stationen.shp" id="Linie4Stationen_c43a8001_4b5f_4ccc_a5df_68a48b10d789" expanded="1" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="Linie4Strecken" checked="Qt::Checked" source="./Linie4Strecken.shp" id="Linie4Strecken_8ffa33be_104e_4cc9_a22c_cff1ef6368f5" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Linie6" expanded="1" checked="Qt::Checked">
+    <layer-tree-group name="Linie6" checked="Qt::Checked" expanded="0">
       <customproperties/>
-      <layer-tree-layer name="Linie6Stationen" expanded="1" id="Linie6Stationen_621ff7b0_776d_48bb_9a21_210d0ff2a57a" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie6Stationen.shp">
+      <layer-tree-layer name="Linie6Stationen" checked="Qt::Checked" source="./Shape files/Linie6Stationen.shp" id="Linie6Stationen_621ff7b0_776d_48bb_9a21_210d0ff2a57a" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="Linie6Strecken" expanded="1" id="Linie6Strecken_8d0e6077_7aef_4ef8_94b9_f631fbcfccb5" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie6Strecken.shp">
+      <layer-tree-layer name="Linie6Strecken" checked="Qt::Checked" source="./Shape files/Linie6Strecken.shp" id="Linie6Strecken_8d0e6077_7aef_4ef8_94b9_f631fbcfccb5" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Linie8" expanded="1" checked="Qt::Checked">
+    <layer-tree-group name="Linie8" checked="Qt::Checked" expanded="0">
       <customproperties/>
-      <layer-tree-layer name="Linie8Stationen" expanded="1" id="Linie8Stationen_93f32d70_75c7_4b48_90a9_1801385250a0" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie8Stationen.shp">
+      <layer-tree-layer name="Linie8Stationen" checked="Qt::Checked" source="./Shape files/Linie8Stationen.shp" id="Linie8Stationen_93f32d70_75c7_4b48_90a9_1801385250a0" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="Linie8Strecken" expanded="1" id="Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie8Strecken.shp">
+      <layer-tree-layer name="Linie8Strecken" checked="Qt::Checked" source="./Shape files/Linie8Strecken.shp" id="Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="Linie10" expanded="1" checked="Qt::Checked">
+    <layer-tree-group name="Linie10" checked="Qt::Checked" expanded="0">
       <customproperties/>
-      <layer-tree-layer name="Linie10Stationen" expanded="1" id="Linie10Stationen_b602937c_1a5f_46db_a3df_8203188853bb" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie10Stationen.shp">
+      <layer-tree-layer name="Linie10Stationen" checked="Qt::Checked" source="./Shape files/Linie10Stationen.shp" id="Linie10Stationen_b602937c_1a5f_46db_a3df_8203188853bb" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer name="Linie10Strecken" expanded="1" id="Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422" providerKey="ogr" checked="Qt::Checked" source="./Shape files/Linie10Strecken.shp">
+      <layer-tree-layer name="Linie10Strecken" checked="Qt::Checked" source="./Shape files/Linie10Strecken.shp" id="Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422" expanded="1" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer name="OpenStreetMap" expanded="1" id="OpenStreetMap_f613e67a_e59e_4d99_a8f3_f5f577d83765" providerKey="wms" checked="Qt::Checked" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0">
+    <layer-tree-layer name="OpenStreetMap" checked="Qt::Checked" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" id="OpenStreetMap_f613e67a_e59e_4d99_a8f3_f5f577d83765" expanded="1" providerKey="wms">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -96,33 +102,37 @@
       <item>Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee</item>
       <item>Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422</item>
       <item>OpenStreetMap_f613e67a_e59e_4d99_a8f3_f5f577d83765</item>
+      <item>Linie1Strecken_2f2fe848_6d6d_4207_afe4_56744dc8cfbf</item>
+      <item>Linie4Strecken_8ffa33be_104e_4cc9_a22c_cff1ef6368f5</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" type="1" enabled="0" tolerance="12" mode="2" intersection-snapping="0">
+  <snapping-settings tolerance="12" intersection-snapping="0" type="1" mode="2" enabled="0" unit="1">
     <individual-layer-settings>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie10Stationen_b602937c_1a5f_46db_a3df_8203188853bb" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie1Stationen_ea617741_1313_4d78_a53b_c9663119da58" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie2Strecken_feaf7473_ef30_4eac_bec9_b820d74e54b6" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie6Strecken_8d0e6077_7aef_4ef8_94b9_f631fbcfccb5" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie8Stationen_93f32d70_75c7_4b48_90a9_1801385250a0" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie3Strecken_01da7c0c_f5f0_43b8_b332_bf2cbea4c9f4" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie4Stationen_c43a8001_4b5f_4ccc_a5df_68a48b10d789" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie6Stationen_621ff7b0_776d_48bb_9a21_210d0ff2a57a" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="BremenBoundBox_7bbc71c9_8728_4472_bc5d_03ca26ec90c5" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie3Stationen_67ca3c22_695b_44a7_90b8_37da1e5230a4" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422" units="1"/>
-      <layer-setting type="1" enabled="0" tolerance="12" id="Linie2Stationen_ccb08afa_6972_42ff_9b7b_4bfbf8d718d8" units="1"/>
+      <layer-setting tolerance="12" type="1" id="BremenBoundBox_7bbc71c9_8728_4472_bc5d_03ca26ec90c5" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie4Stationen_c43a8001_4b5f_4ccc_a5df_68a48b10d789" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie8Stationen_93f32d70_75c7_4b48_90a9_1801385250a0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie10Stationen_b602937c_1a5f_46db_a3df_8203188853bb" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie1Strecken_2f2fe848_6d6d_4207_afe4_56744dc8cfbf" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie2Stationen_ccb08afa_6972_42ff_9b7b_4bfbf8d718d8" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie3Strecken_01da7c0c_f5f0_43b8_b332_bf2cbea4c9f4" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie1Stationen_ea617741_1313_4d78_a53b_c9663119da58" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie2Strecken_feaf7473_ef30_4eac_bec9_b820d74e54b6" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie6Strecken_8d0e6077_7aef_4ef8_94b9_f631fbcfccb5" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie4Strecken_8ffa33be_104e_4cc9_a22c_cff1ef6368f5" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie3Stationen_67ca3c22_695b_44a7_90b8_37da1e5230a4" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="Linie6Stationen_621ff7b0_776d_48bb_9a21_210d0ff2a57a" enabled="0" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>971293.65003509540110826</xmin>
-      <ymin>6990722.2551747364923358</ymin>
-      <xmax>992550.35697151441127062</xmax>
-      <ymax>7004501.87247477006167173</ymax>
+      <xmin>976314.71783578104805201</xmin>
+      <ymin>6987552.08396126423031092</ymin>
+      <xmax>989832.08537310070823878</xmax>
+      <ymax>6998658.02353073749691248</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -140,95 +150,105 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendlayer name="BremenBoundBox" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="BremenBoundBox_7bbc71c9_8728_4472_bc5d_03ca26ec90c5" isInOverview="0" visible="1"/>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="BremenBoundBox" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="BremenBoundBox_7bbc71c9_8728_4472_bc5d_03ca26ec90c5"/>
       </filegroup>
     </legendlayer>
     <legendgroup name="Linie1" open="true" checked="Qt::Checked">
-      <legendlayer name="Linie1Stationen" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie1Stationen_ea617741_1313_4d78_a53b_c9663119da58" isInOverview="0" visible="1"/>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie1Stationen" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie1Stationen_ea617741_1313_4d78_a53b_c9663119da58"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie1Strecken" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie1Strecken_2f2fe848_6d6d_4207_afe4_56744dc8cfbf"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="Linie2" open="true" checked="Qt::Unchecked">
-      <legendlayer name="Linie2Stationen" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie2Stationen_ccb08afa_6972_42ff_9b7b_4bfbf8d718d8" isInOverview="0" visible="0"/>
+    <legendgroup name="Linie2" open="true" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie2Stationen" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie2Stationen_ccb08afa_6972_42ff_9b7b_4bfbf8d718d8"/>
         </filegroup>
       </legendlayer>
-      <legendlayer name="Linie2Strecken" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie2Strecken_feaf7473_ef30_4eac_bec9_b820d74e54b6" isInOverview="0" visible="0"/>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie2Strecken" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie2Strecken_feaf7473_ef30_4eac_bec9_b820d74e54b6"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="Linie3" open="true" checked="Qt::Checked">
-      <legendlayer name="Linie3Stationen" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie3Stationen_67ca3c22_695b_44a7_90b8_37da1e5230a4" isInOverview="0" visible="1"/>
+    <legendgroup name="Linie3" open="false" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie3Stationen" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie3Stationen_67ca3c22_695b_44a7_90b8_37da1e5230a4"/>
         </filegroup>
       </legendlayer>
-      <legendlayer name="Linie3Strecken" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie3Strecken_01da7c0c_f5f0_43b8_b332_bf2cbea4c9f4" isInOverview="0" visible="1"/>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie3Strecken" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie3Strecken_01da7c0c_f5f0_43b8_b332_bf2cbea4c9f4"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
     <legendgroup name="Linie4" open="true" checked="Qt::Checked">
-      <legendlayer name="Linie4Stationen" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie4Stationen_c43a8001_4b5f_4ccc_a5df_68a48b10d789" isInOverview="0" visible="1"/>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie4Stationen" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie4Stationen_c43a8001_4b5f_4ccc_a5df_68a48b10d789"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie4Strecken" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie4Strecken_8ffa33be_104e_4cc9_a22c_cff1ef6368f5"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="Linie6" open="true" checked="Qt::Checked">
-      <legendlayer name="Linie6Stationen" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie6Stationen_621ff7b0_776d_48bb_9a21_210d0ff2a57a" isInOverview="0" visible="1"/>
+    <legendgroup name="Linie6" open="false" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie6Stationen" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie6Stationen_621ff7b0_776d_48bb_9a21_210d0ff2a57a"/>
         </filegroup>
       </legendlayer>
-      <legendlayer name="Linie6Strecken" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie6Strecken_8d0e6077_7aef_4ef8_94b9_f631fbcfccb5" isInOverview="0" visible="1"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
-    <legendgroup name="Linie8" open="true" checked="Qt::Checked">
-      <legendlayer name="Linie8Stationen" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie8Stationen_93f32d70_75c7_4b48_90a9_1801385250a0" isInOverview="0" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer name="Linie8Strecken" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee" isInOverview="0" visible="1"/>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie6Strecken" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie6Strecken_8d0e6077_7aef_4ef8_94b9_f631fbcfccb5"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="Linie10" open="true" checked="Qt::Checked">
-      <legendlayer name="Linie10Stationen" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie10Stationen_b602937c_1a5f_46db_a3df_8203188853bb" isInOverview="0" visible="1"/>
+    <legendgroup name="Linie8" open="false" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie8Stationen" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie8Stationen_93f32d70_75c7_4b48_90a9_1801385250a0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer name="Linie10Strecken" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422" isInOverview="0" visible="1"/>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie8Strecken" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer name="OpenStreetMap" showFeatureCount="0" open="true" checked="Qt::Checked" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="OpenStreetMap_f613e67a_e59e_4d99_a8f3_f5f577d83765" isInOverview="0" visible="1"/>
+    <legendgroup name="Linie10" open="false" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie10Stationen" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie10Stationen_b602937c_1a5f_46db_a3df_8203188853bb"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" name="Linie10Strecken" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="OpenStreetMap" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="OpenStreetMap_f613e67a_e59e_4d99_a8f3_f5f577d83765"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer geometry="Polygon" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Polygon" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>943783.05479532899335027</xmin>
         <ymin>6977321.01991668902337551</ymin>
@@ -271,11 +291,11 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -303,21 +323,21 @@
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="fill" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="77,175,74,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="77,175,74,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.96"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="no"/>
+          <symbol clip_to_extent="1" name="0" type="fill" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="77,175,74,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="77,175,74,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.96" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -332,7 +352,7 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -340,12 +360,12 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -364,26 +384,26 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
+        <alias name="" field="id" index="0"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
+        <constraint field="id" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -424,7 +444,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Point" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Point" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>974313.96576723386533558</xmin>
         <ymin>6993951.59686550311744213</ymin>
@@ -471,7 +491,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -499,28 +519,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="70,4,176,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="50,87,128,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol clip_to_extent="1" name="0" type="marker" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="70,4,176,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="50,87,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -529,24 +549,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v=""/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="font" v="Dingbats"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="offset" v="0,-5.5"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="" k="chr"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="0,-5.5" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -561,24 +581,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v="1"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="font" v="MS Shell Dlg 2"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0.00000000000000006,-0.60000000000000009"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="1" k="chr"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="MS Shell Dlg 2" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0.00000000000000006,-0.60000000000000009" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -599,8 +619,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions" value="id"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="id" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -608,12 +628,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -639,31 +659,31 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="name"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="name" index="1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="name" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="name" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="name"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="name" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="name" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -706,7 +726,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Line" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Line" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>974313.91774563549552113</xmin>
         <ymin>6993950.55746938567608595</ymin>
@@ -753,7 +773,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -781,25 +801,25 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="line" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="69,11,162,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol clip_to_extent="1" name="0" type="line" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="69,11,162,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -814,10 +834,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>id</value>
-        </property>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="id" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -825,12 +843,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="2" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="2" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -863,36 +881,36 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="Station1"/>
-        <alias name="" index="2" field="Station2"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="Station1" index="1"/>
+        <alias name="" field="Station2" index="2"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="Station1"/>
-        <default applyOnUpdate="0" expression="" field="Station2"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Station1" applyOnUpdate="0"/>
+        <default expression="" field="Station2" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station1" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station2" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station1" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station2" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="Station1"/>
-        <constraint exp="" desc="" field="Station2"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="Station1" desc="" exp=""/>
+        <constraint field="Station2" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Station1" type="field" hidden="0" width="-1"/>
-          <column name="Station2" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="Station1" type="field" width="-1"/>
+          <column hidden="0" name="Station2" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -937,7 +955,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Point" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Point" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>973276.19175419071689248</xmin>
         <ymin>6990474.59291661530733109</ymin>
@@ -984,7 +1002,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1012,28 +1030,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="28,140,1,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="50,87,128,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol clip_to_extent="1" name="0" type="marker" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="28,140,1,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="50,87,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1042,24 +1060,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v=""/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="font" v="Dingbats"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="offset" v="0,-5.5"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="" k="chr"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="0,-5.5" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1074,24 +1092,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v="1"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="font" v="MS Shell Dlg 2"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0.00000000000000006,-0.60000000000000009"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="1" k="chr"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="MS Shell Dlg 2" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0.00000000000000006,-0.60000000000000009" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1106,7 +1124,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1114,12 +1132,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -1145,34 +1163,34 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="name"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="name" index="1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="name" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="name" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="name"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="name" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="name" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -1212,7 +1230,200 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Point" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Line" refreshOnNotifyMessage="" readOnly="0">
+      <id>Linie1Strecken_2f2fe848_6d6d_4207_afe4_56744dc8cfbf</id>
+      <datasource>./Shape files/Linie1Strecken.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Linie1Strecken</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="Vorgabe">
+        <map-layer-style name="Vorgabe"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" name="0" type="line" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="50,238,229,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="2" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="id" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="id" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="id" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Point" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>974313.96576723374892026</xmin>
         <ymin>6993951.59686550870537758</ymin>
@@ -1259,7 +1470,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1287,28 +1498,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="16,28,191,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="50,87,128,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol clip_to_extent="1" name="0" type="marker" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="16,28,191,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="50,87,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1317,24 +1528,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v=""/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="font" v="Dingbats"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="offset" v="0,-5.5"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="" k="chr"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="0,-5.5" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1349,24 +1560,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v="2"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="font" v="MS Shell Dlg 2"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0.00000000000000006,-0.60000000000000009"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="2" k="chr"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="MS Shell Dlg 2" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0.00000000000000006,-0.60000000000000009" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1381,7 +1592,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1389,12 +1600,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -1420,31 +1631,31 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="name"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="name" index="1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="name" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="name" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="name"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="name" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="name" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -1487,7 +1698,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Line" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Line" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>974313.91774563549552113</xmin>
         <ymin>6993950.55746938567608595</ymin>
@@ -1534,7 +1745,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1562,25 +1773,25 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="line" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="17,17,170,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol clip_to_extent="1" name="0" type="line" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="17,17,170,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1595,7 +1806,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1603,12 +1814,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="2" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="2" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -1641,36 +1852,36 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="Station1"/>
-        <alias name="" index="2" field="Station2"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="Station1" index="1"/>
+        <alias name="" field="Station2" index="2"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="Station1"/>
-        <default applyOnUpdate="0" expression="" field="Station2"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Station1" applyOnUpdate="0"/>
+        <default expression="" field="Station2" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station1" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station2" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station1" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station2" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="Station1"/>
-        <constraint exp="" desc="" field="Station2"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="Station1" desc="" exp=""/>
+        <constraint field="Station2" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Station1" type="field" hidden="0" width="-1"/>
-          <column name="Station2" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="Station1" type="field" width="-1"/>
+          <column hidden="0" name="Station2" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -1715,7 +1926,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Point" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Point" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>974313.13495747779961675</xmin>
         <ymin>6994752.29740599263459444</ymin>
@@ -1762,7 +1973,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1790,28 +2001,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="16,216,206,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="50,87,128,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol clip_to_extent="1" name="0" type="marker" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="16,216,206,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="50,87,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1820,24 +2031,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v=""/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="font" v="Dingbats"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="offset" v="0,-5.5"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="" k="chr"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="0,-5.5" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1852,24 +2063,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v="3"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="font" v="MS Shell Dlg 2"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0.00000000000000006,-0.60000000000000009"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="3" k="chr"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="MS Shell Dlg 2" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0.00000000000000006,-0.60000000000000009" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -1884,8 +2095,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions" value="id"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="id" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1893,12 +2104,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -1924,31 +2135,31 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="name"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="name" index="1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="name" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="name" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="name"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="name" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="name" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -1991,7 +2202,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Line" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Line" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>974284.0116803131531924</xmin>
         <ymin>6994752.0000073816627264</ymin>
@@ -2038,7 +2249,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2066,25 +2277,25 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="line" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="42,175,204,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol clip_to_extent="1" name="0" type="line" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="42,175,204,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2099,8 +2310,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions" value="id"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="id" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2108,12 +2319,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="2" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="2" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -2146,36 +2357,36 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="Station1"/>
-        <alias name="" index="2" field="Station2"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="Station1" index="1"/>
+        <alias name="" field="Station2" index="2"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="Station1"/>
-        <default applyOnUpdate="0" expression="" field="Station2"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Station1" applyOnUpdate="0"/>
+        <default expression="" field="Station2" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station1" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station2" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station1" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station2" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="Station1"/>
-        <constraint exp="" desc="" field="Station2"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="Station1" desc="" exp=""/>
+        <constraint field="Station2" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Station1" type="field" hidden="0" width="-1"/>
-          <column name="Station2" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="Station1" type="field" width="-1"/>
+          <column hidden="0" name="Station2" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -2220,7 +2431,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Point" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Point" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>979546.20378335914574564</xmin>
         <ymin>6988117.99071254301816225</ymin>
@@ -2267,7 +2478,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2295,28 +2506,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="28,140,1,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="50,87,128,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol clip_to_extent="1" name="0" type="marker" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="28,140,1,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="50,87,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2325,24 +2536,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v=""/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="font" v="Dingbats"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="offset" v="0,-5.5"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="" k="chr"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="0,-5.5" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2357,24 +2568,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v="4"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="font" v="MS Shell Dlg 2"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0.00000000000000006,-0.60000000000000009"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="4" k="chr"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="MS Shell Dlg 2" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0.00000000000000006,-0.60000000000000009" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2389,7 +2600,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2397,12 +2608,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -2428,31 +2639,31 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="name"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="name" index="1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="name" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="name" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="name"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="name" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="name" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -2495,7 +2706,237 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Point" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Line" refreshOnNotifyMessage="" readOnly="0">
+      <extent>
+        <xmin>979537.81445436412468553</xmin>
+        <ymin>6988116.86198222637176514</ymin>
+        <xmax>995751.75843820790760219</xmax>
+        <ymax>7012325.08227785304188728</ymax>
+      </extent>
+      <id>Linie4Strecken_8ffa33be_104e_4cc9_a22c_cff1ef6368f5</id>
+      <datasource>./Linie4Strecken.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Linie4Strecken</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="Vorgabe">
+        <map-layer-style name="Vorgabe"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" name="0" type="line" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="28,140,1,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="2" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Station1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Station2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="Station1" index="1"/>
+        <alias name="" field="Station2" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Station1" applyOnUpdate="0"/>
+        <default expression="" field="Station2" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station1" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station2" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="Station1" desc="" exp=""/>
+        <constraint field="Station2" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+          <column hidden="0" name="Station1" type="field" width="-1"/>
+          <column hidden="0" name="Station2" type="field" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Station1" editable="1"/>
+        <field name="Station2" editable="1"/>
+        <field name="id" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Station1" labelOnTop="0"/>
+        <field name="Station2" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Point" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>977833.14315823849756271</xmin>
         <ymin>6992354.89668734278529882</ymin>
@@ -2542,7 +2983,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2570,28 +3011,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="241,220,26,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="50,87,128,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol clip_to_extent="1" name="0" type="marker" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="241,220,26,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="50,87,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2600,24 +3041,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v=""/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="font" v="Dingbats"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="offset" v="0,-5.5"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="" k="chr"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="0,-5.5" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2632,24 +3073,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v="6"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="font" v="MS Shell Dlg 2"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0.00000000000000006,-0.60000000000000009"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="6" k="chr"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="MS Shell Dlg 2" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0.00000000000000006,-0.60000000000000009" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2664,7 +3105,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2672,12 +3113,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -2703,31 +3144,31 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="Name"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="Name" index="1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="Name"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Name" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Name" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Name" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="Name"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="Name" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
-          <column name="Name" type="field" hidden="0" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+          <column hidden="0" name="Name" type="field" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -2772,7 +3213,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Line" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Line" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>977685.6428249788004905</xmin>
         <ymin>6992358.99451166950166225</ymin>
@@ -2819,7 +3260,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2847,25 +3288,25 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="line" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="231,219,40,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol clip_to_extent="1" name="0" type="line" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="231,219,40,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -2880,7 +3321,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2888,12 +3329,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="2" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="2" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -2926,36 +3367,36 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="Station1"/>
-        <alias name="" index="2" field="Station2"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="Station1" index="1"/>
+        <alias name="" field="Station2" index="2"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="Station1"/>
-        <default applyOnUpdate="0" expression="" field="Station2"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Station1" applyOnUpdate="0"/>
+        <default expression="" field="Station2" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station1" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station2" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station1" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station2" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="Station1"/>
-        <constraint exp="" desc="" field="Station2"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="Station1" desc="" exp=""/>
+        <constraint field="Station2" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Station1" type="field" hidden="0" width="-1"/>
-          <column name="Station2" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="Station1" type="field" width="-1"/>
+          <column hidden="0" name="Station2" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -3000,7 +3441,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Point" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Point" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>973276.17366123292595148</xmin>
         <ymin>6992028.5988563010469079</ymin>
@@ -3047,7 +3488,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -3075,28 +3516,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="38,190,0,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="50,87,128,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol clip_to_extent="1" name="0" type="marker" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="38,190,0,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="50,87,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -3105,24 +3546,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v=""/>
-              <prop k="color" v="0,0,0,255"/>
-              <prop k="font" v="Dingbats"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="offset" v="0,-5.5"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="" k="chr"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="Dingbats" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="0,-5.5" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -3137,24 +3578,24 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" locked="0" enabled="1" class="FontMarker">
-              <prop k="angle" v="0"/>
-              <prop k="chr" v="8"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="font" v="MS Shell Dlg 2"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0.00000000000000006,-0.60000000000000009"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="4"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+            <layer class="FontMarker" locked="0" enabled="1" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="8" k="chr"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="MS Shell Dlg 2" k="font"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0.00000000000000006,-0.60000000000000009" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -3169,7 +3610,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -3177,12 +3618,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="0" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -3208,31 +3649,31 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="name"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="name" index="1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="name" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="name" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="name"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="name" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="name" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -3275,7 +3716,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Line" simplifyDrawingTol="1" readOnly="0" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyMaxScale="1" geometry="Line" refreshOnNotifyMessage="" readOnly="0">
       <extent>
         <xmin>973276.02101135393604636</xmin>
         <ymin>6992028.69279580842703581</ymin>
@@ -3322,7 +3763,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minx="0" maxx="0" maxy="0" maxz="0" minz="0" dimensions="2" crs=""/>
+          <spatial dimensions="2" maxy="0" maxz="0" maxx="0" crs="" minz="0" miny="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -3350,25 +3791,25 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol name="0" type="line" clip_to_extent="1" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="7,217,7,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol clip_to_extent="1" name="0" type="line" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="7,217,7,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
@@ -3383,8 +3824,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions" value="id"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="id" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -3392,12 +3833,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory barWidth="5" penAlpha="255" rotationOffset="270" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" enabled="0" diagramOrientation="Up" lineSizeType="MM" penColor="#000000" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" width="15" minimumSize="0" opacity="1" height="15" penWidth="0" maxScaleDenominator="1e+8">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute label="" color="#000000" field=""/>
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" backgroundAlpha="255" labelPlacementMethod="XHeight" enabled="0" width="15" lineSizeType="MM" minScaleDenominator="0" scaleDependency="Area" height="15" penAlpha="255" minimumSize="0" opacity="1" scaleBasedVisibility="0" diagramOrientation="Up" sizeType="MM" maxScaleDenominator="1e+8" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" penWidth="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" placement="2" linePlacementFlags="18" priority="0" showAll="1">
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" dist="0" zIndex="0" priority="0" placement="2" obstacle="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -3430,36 +3871,36 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="Station1"/>
-        <alias name="" index="2" field="Station2"/>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="Station1" index="1"/>
+        <alias name="" field="Station2" index="2"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="Station1"/>
-        <default applyOnUpdate="0" expression="" field="Station2"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Station1" applyOnUpdate="0"/>
+        <default expression="" field="Station2" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station1" constraints="0"/>
-        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="Station2" constraints="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="id" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station1" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="Station2" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="Station1"/>
-        <constraint exp="" desc="" field="Station2"/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="Station1" desc="" exp=""/>
+        <constraint field="Station2" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Station1" type="field" hidden="0" width="-1"/>
-          <column name="Station2" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="id" type="field" width="-1"/>
+          <column hidden="0" name="Station1" type="field" width="-1"/>
+          <column hidden="0" name="Station2" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -3504,7 +3945,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer type="raster" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8">
+    <maplayer hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" type="raster" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" autoRefreshEnabled="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -3554,7 +3995,7 @@ def my_form_open(dialog, layer, feature):
         <links/>
       </resourceMetadata>
       <customproperties>
-        <property key="identify/format" value="Undefined"/>
+        <property value="Undefined" key="identify/format"/>
       </customproperties>
       <provider>wms</provider>
       <noData>
@@ -3564,7 +4005,7 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="singlebandcolordata" opacity="1" band="1">
+        <rasterrenderer type="singlebandcolordata" opacity="1" band="1" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -3576,7 +4017,7 @@ def my_form_open(dialog, layer, feature):
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation saturation="0" colorizeStrength="100" grayscaleMode="0" colorizeBlue="128" colorizeOn="0" colorizeRed="255" colorizeGreen="128"/>
+        <huesaturation colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" saturation="0" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
@@ -3597,74 +4038,76 @@ def my_form_open(dialog, layer, feature):
     <layer id="Linie8Strecken_f9d4e593_596c_4b4a_81ae_16a40d29d2ee"/>
     <layer id="Linie10Strecken_5dc804f0_b218_427d_a80e_b94c9ae56422"/>
     <layer id="OpenStreetMap_f613e67a_e59e_4d99_a8f3_f5f577d83765"/>
+    <layer id="Linie1Strecken_2f2fe848_6d6d_4207_afe4_56744dc8cfbf"/>
+    <layer id="Linie4Strecken_8ffa33be_104e_4cc9_a22c_cff1ef6368f5"/>
   </layerorder>
   <properties>
-    <PositionPrecision>
-      <Automatic type="bool">true</Automatic>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-    </PositionPrecision>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <PAL>
-      <SearchMethod type="int">0</SearchMethod>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
-    </PAL>
-    <qgis2web>
-      <Minzoomlevel type="QString">1</Minzoomlevel>
-      <Template type="QString">full-screen</Template>
-      <Mappinglibrarylocation type="QString">Local</Mappinglibrarylocation>
-      <Layersearch type="QString">None</Layersearch>
-      <Precision type="QString">maintain</Precision>
-      <Exportfolder type="QString">C:/Users/Jonas/SkyDrive/Dokumente/Hochschule/Master/21_GIS/Projekt_bsag/qgisToWeb</Exportfolder>
-      <mapFormat type="QString">leaflet</mapFormat>
-      <Usedebuglibraries type="bool">false</Usedebuglibraries>
-      <Measuretool type="QString">None</Measuretool>
-      <MinifyGeoJSONfiles type="bool">false</MinifyGeoJSONfiles>
-      <Geolocateuser type="bool">false</Geolocateuser>
-      <Restricttoextent type="bool">false</Restricttoextent>
-      <Exporter type="QString">folder</Exporter>
-      <Highlightonhover type="bool">false</Highlightonhover>
-      <Addlayerslist type="QString">None</Addlayerslist>
-      <Maxzoomlevel type="QString">28</Maxzoomlevel>
-      <Searchlayer type="QString"></Searchlayer>
-      <MatchprojectCRS type="bool">false</MatchprojectCRS>
-      <Extent type="QString">Canvas extent</Extent>
-      <Showpopupsonhover type="bool">false</Showpopupsonhover>
-      <Addaddresssearch type="bool">false</Addaddresssearch>
-    </qgis2web>
-    <Digitizing>
-      <TopologicalEditing type="int">1</TopologicalEditing>
-    </Digitizing>
-    <Measurement>
-      <DistanceUnits type="QString"></DistanceUnits>
-      <AreaUnits type="QString"></AreaUnits>
-    </Measurement>
-    <SpatialRefSys>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
-    <Gui>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-    </Gui>
-    <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
-    </Measure>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
+    <Digitizing>
+      <TopologicalEditing type="int">1</TopologicalEditing>
+    </Digitizing>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <qgis2web>
+      <Usedebuglibraries type="bool">false</Usedebuglibraries>
+      <Mappinglibrarylocation type="QString">Local</Mappinglibrarylocation>
+      <Showpopupsonhover type="bool">false</Showpopupsonhover>
+      <Exportfolder type="QString">C:/Users/Jonas/SkyDrive/Dokumente/Hochschule/Master/21_GIS/Projekt_bsag/qgisToWeb</Exportfolder>
+      <Highlightonhover type="bool">false</Highlightonhover>
+      <Geolocateuser type="bool">false</Geolocateuser>
+      <Extent type="QString">Canvas extent</Extent>
+      <Precision type="QString">maintain</Precision>
+      <Minzoomlevel type="QString">1</Minzoomlevel>
+      <mapFormat type="QString">leaflet</mapFormat>
+      <Restricttoextent type="bool">false</Restricttoextent>
+      <MinifyGeoJSONfiles type="bool">false</MinifyGeoJSONfiles>
+      <MatchprojectCRS type="bool">false</MatchprojectCRS>
+      <Exporter type="QString">folder</Exporter>
+      <Addlayerslist type="QString">None</Addlayerslist>
+      <Addaddresssearch type="bool">false</Addaddresssearch>
+      <Measuretool type="QString">None</Measuretool>
+      <Maxzoomlevel type="QString">28</Maxzoomlevel>
+      <Template type="QString">full-screen</Template>
+      <Searchlayer type="QString"></Searchlayer>
+      <Layersearch type="QString">None</Layersearch>
+    </qgis2web>
+    <PAL>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
   </properties>
   <visibility-presets/>
   <transformContext/>
