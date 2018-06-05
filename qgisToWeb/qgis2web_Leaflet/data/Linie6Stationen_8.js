@@ -1,0 +1,32 @@
+var json_Linie6Stationen_8 = {
+"type": "FeatureCollection",
+"name": "Linie6Stationen_8",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "Name": "Flughafen-Süd", "Linie6HinStation2": "Flughafen", "Linie6HerStation1": null }, "geometry": { "type": "Point", "coordinates": [ 8.789793228548568, 53.050578149842359 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Flughafen", "Linie6HinStation2": "Neuenlander Kämpe", "Linie6HerStation1": "Flughafen-Süd" }, "geometry": { "type": "Point", "coordinates": [ 8.786317620534094, 53.052851709221038 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Neuenlander Kämpe", "Linie6HinStation2": "BSAG Zentrum", "Linie6HerStation1": "Flughafen" }, "geometry": { "type": "Point", "coordinates": [ 8.784024578176776, 53.056448039751182 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "BSAG Zentrum", "Linie6HinStation2": "Schleiermacherstraße", "Linie6HerStation1": "Neuenlander Kämpe" }, "geometry": { "type": "Point", "coordinates": [ 8.785435681165891, 53.061191676223096 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Schleiermacherstraße", "Linie6HinStation2": "Gastfeldstraße", "Linie6HerStation1": "BSAG Zentrum" }, "geometry": { "type": "Point", "coordinates": [ 8.789491068452, 53.063779899658215 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Gastfeldstraße", "Linie6HinStation2": "Theater am Leibnizplatz", "Linie6HerStation1": "Schleiermacherstraße" }, "geometry": { "type": "Point", "coordinates": [ 8.793675295576241, 53.066371654183087 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Theater am Leibnizplatz", "Linie6HinStation2": "Wilhelm-Kaisen-Brücke", "Linie6HerStation1": "Gastfeldstraße" }, "geometry": { "type": "Point", "coordinates": [ 8.799417871218894, 53.06980373773186 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Wilhelm-Kaisen-Brücke", "Linie6HinStation2": "Domsheide", "Linie6HerStation1": "Theater am Leibnizplatz" }, "geometry": { "type": "Point", "coordinates": [ 8.803804560945926, 53.07229560552662 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Domsheide", "Linie6HinStation2": "Schüsselkorb", "Linie6HerStation1": "Wilhelm-Kaisen-Brücke" }, "geometry": { "type": "Point", "coordinates": [ 8.808326225741478, 53.074558804275895 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Schüsselkorb", "Linie6HinStation2": "Herdentor", "Linie6HerStation1": "Domsheide" }, "geometry": { "type": "Point", "coordinates": [ 8.810234282391974, 53.076932454959646 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Herdentor", "Linie6HinStation2": "Hauptbahnhof", "Linie6HerStation1": "Schüsselkorb" }, "geometry": { "type": "Point", "coordinates": [ 8.810091063107619, 53.079710340049573 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Hauptbahnhof", "Linie6HinStation2": "Blumenthalstraße", "Linie6HerStation1": "Herdentor" }, "geometry": { "type": "Point", "coordinates": [ 8.813312059061088, 53.081928925940666 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Blumenthalstraße", "Linie6HinStation2": "Am Stern", "Linie6HerStation1": "Hauptbahnhof" }, "geometry": { "type": "Point", "coordinates": [ 8.817790777244005, 53.083627798962688 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Am Stern", "Linie6HinStation2": "Brahmsstraße", "Linie6HerStation1": "Blumenthalstraße" }, "geometry": { "type": "Point", "coordinates": [ 8.825603993142559, 53.084519588332874 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Brahmsstraße", "Linie6HinStation2": "Joseph-Hayden-Straße", "Linie6HerStation1": "Am Stern" }, "geometry": { "type": "Point", "coordinates": [ 8.830923237888573, 53.085798278867479 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Joseph-Hayden-Straße", "Linie6HinStation2": "H.-H.-Meier-Allee", "Linie6HerStation1": "Brahmsstraße" }, "geometry": { "type": "Point", "coordinates": [ 8.836671948761715, 53.087239063318343 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "H.-H.-Meier-Allee", "Linie6HinStation2": "Emmastraße", "Linie6HerStation1": "Joseph-Hayden-Straße" }, "geometry": { "type": "Point", "coordinates": [ 8.84273969161501, 53.088974573384341 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Emmastraße", "Linie6HinStation2": "Wätjenstraße", "Linie6HerStation1": "H.-H.-Meier-Allee" }, "geometry": { "type": "Point", "coordinates": [ 8.845693805046624, 53.091375062718555 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Wätjenstraße", "Linie6HinStation2": "Riensberg", "Linie6HerStation1": "Emmastraße" }, "geometry": { "type": "Point", "coordinates": [ 8.850488487594498, 53.095000413641344 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Riensberg", "Linie6HinStation2": "Berufsbildungswerk", "Linie6HerStation1": "Wätjenstraße" }, "geometry": { "type": "Point", "coordinates": [ 8.853924216611532, 53.096717190733472 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Berufsbildungswerk", "Linie6HinStation2": "Lise-Meitner-Straße", "Linie6HerStation1": "Riensberg" }, "geometry": { "type": "Point", "coordinates": [ 8.85928027273987, 53.102393856364607 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Lise-Meitner-Straße", "Linie6HinStation2": "Universität-Süd", "Linie6HerStation1": "Berufsbildungswerk" }, "geometry": { "type": "Point", "coordinates": [ 8.855488700360359, 53.103782517754986 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Universität-Süd", "Linie6HinStation2": "Universität\/Zentralbereich", "Linie6HerStation1": "Lise-Meitner-Straße" }, "geometry": { "type": "Point", "coordinates": [ 8.851298338005655, 53.105130618285692 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Universität\/Zentralbereich", "Linie6HinStation2": "Universität-Nord", "Linie6HerStation1": "Universität-Süd" }, "geometry": { "type": "Point", "coordinates": [ 8.852304515789218, 53.107572561653086 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Universität-Nord", "Linie6HinStation2": null, "Linie6HerStation1": "Universität\/Zentralbereich" }, "geometry": { "type": "Point", "coordinates": [ 8.85518807407137, 53.110865098347624 ] } }
+]
+}
