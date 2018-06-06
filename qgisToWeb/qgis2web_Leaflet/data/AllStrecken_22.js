@@ -1,6 +1,6 @@
-var json_MergedStrecken_22 = {
+var json_AllStrecken_22 = {
 "type": "FeatureCollection",
-"name": "MergedStrecken_22",
+"name": "AllStrecken_22",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "id": null, "Station1": "Gröpelingen", "Station2": "Lindenhofstraße", "length": "703", "layer": "Linie10StreckenHin", "path": "C:\/Users\/Jonas\/SkyDrive\/Dokumente\/Hochschule\/Master\/21_GIS\/Projekt_bsag\/Shape files\/Linie10Strecken.shp" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 8.752410838412745, 53.120556925988289 ], [ 8.753199407243512, 53.120770248777852 ], [ 8.753792990783516, 53.120358099910923 ], [ 8.754883527984921, 53.119566928701111 ], [ 8.755635860611205, 53.118914512168033 ], [ 8.75652278485412, 53.11813988412581 ], [ 8.757292372815872, 53.117458448452602 ], [ 8.758141335320763, 53.116721077319816 ], [ 8.758876412611585, 53.116097616017491 ] ] ] } },

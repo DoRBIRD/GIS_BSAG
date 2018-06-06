@@ -8,6 +8,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css">
+        <link rel="stylesheet" href="css/leaflet-search.css">
         <style>
         html, body, #map {
             width: 100%;
@@ -31,6 +32,7 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
+        <script src="js/leaflet-search.js"></script>
         <script src="data/Linie10StreckenHer_0.js"></script>
         <script src="data/Linie10StreckenHin_1.js"></script>
         <script src="data/Linie10Stationen_2.js"></script>
@@ -52,19 +54,36 @@
         <script src="data/Linie1StreckenHer_18.js"></script>
         <script src="data/Linie1StreckenHin_19.js"></script>
         <script src="data/Linie1Stationen_20.js"></script>
-        <script src="data/MergedStrecken_22.js"></script>
+        <script src="data/AllStrecken_22.js"></script>
         <script src="data/Merged_23.js"></script>
         <script src="data/BremenBoundBox_24.js"></script>
         <script>
+        var highlightLayer;
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+            //highlightLayer.openPopup();
+        }
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[53.05613723519698,8.758443693775543],[53.09043868973708,8.86076853196995]]);
+        }).fitBounds([[53.057320968027454,8.758715352638006],[53.091621479992696,8.86104019083241]]);
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
         function pop_Linie10StreckenHer_0(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie10StreckenHer_0_0() {
@@ -91,6 +110,18 @@
         bounds_group.addLayer(layer_Linie10StreckenHer_0);
         map.addLayer(layer_Linie10StreckenHer_0);
         function pop_Linie10StreckenHin_1(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie10StreckenHin_1_0() {
@@ -117,6 +148,18 @@
         bounds_group.addLayer(layer_Linie10StreckenHin_1);
         map.addLayer(layer_Linie10StreckenHin_1);
         function pop_Linie10Stationen_2(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie10Stationen_2_0() {
@@ -174,6 +217,18 @@
         bounds_group.addLayer(layer_Linie10Stationen_2);
         map.addLayer(layer_Linie10Stationen_2);
         function pop_Linie8StreckenHer_3(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie8StreckenHer_3_0() {
@@ -200,6 +255,18 @@
         bounds_group.addLayer(layer_Linie8StreckenHer_3);
         map.addLayer(layer_Linie8StreckenHer_3);
         function pop_Linie8StreckenHin_4(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie8StreckenHin_4_0() {
@@ -226,6 +293,18 @@
         bounds_group.addLayer(layer_Linie8StreckenHin_4);
         map.addLayer(layer_Linie8StreckenHin_4);
         function pop_Linie8Stationen_5(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie8Stationen_5_0() {
@@ -283,6 +362,18 @@
         bounds_group.addLayer(layer_Linie8Stationen_5);
         map.addLayer(layer_Linie8Stationen_5);
         function pop_Linie6StreckenHer_6(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie6StreckenHer_6_0() {
@@ -309,6 +400,18 @@
         bounds_group.addLayer(layer_Linie6StreckenHer_6);
         map.addLayer(layer_Linie6StreckenHer_6);
         function pop_Linie6StreckenHin_7(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie6StreckenHin_7_0() {
@@ -335,6 +438,18 @@
         bounds_group.addLayer(layer_Linie6StreckenHin_7);
         map.addLayer(layer_Linie6StreckenHin_7);
         function pop_Linie6Stationen_8(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie6Stationen_8_0() {
@@ -392,6 +507,18 @@
         bounds_group.addLayer(layer_Linie6Stationen_8);
         map.addLayer(layer_Linie6Stationen_8);
         function pop_Linie4StreckenHer_9(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie4StreckenHer_9_0() {
@@ -418,6 +545,18 @@
         bounds_group.addLayer(layer_Linie4StreckenHer_9);
         map.addLayer(layer_Linie4StreckenHer_9);
         function pop_Linie4StreckenHin_10(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie4StreckenHin_10_0() {
@@ -444,6 +583,18 @@
         bounds_group.addLayer(layer_Linie4StreckenHin_10);
         map.addLayer(layer_Linie4StreckenHin_10);
         function pop_Linie4Stationen_11(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie4Stationen_11_0() {
@@ -501,6 +652,18 @@
         bounds_group.addLayer(layer_Linie4Stationen_11);
         map.addLayer(layer_Linie4Stationen_11);
         function pop_Linie3StreckenHer_12(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie3StreckenHer_12_0() {
@@ -527,6 +690,18 @@
         bounds_group.addLayer(layer_Linie3StreckenHer_12);
         map.addLayer(layer_Linie3StreckenHer_12);
         function pop_Linie3StreckenHin_13(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie3StreckenHin_13_0() {
@@ -553,6 +728,18 @@
         bounds_group.addLayer(layer_Linie3StreckenHin_13);
         map.addLayer(layer_Linie3StreckenHin_13);
         function pop_Linie3Stationen_14(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie3Stationen_14_0() {
@@ -610,6 +797,18 @@
         bounds_group.addLayer(layer_Linie3Stationen_14);
         map.addLayer(layer_Linie3Stationen_14);
         function pop_Linie2StreckenHer_15(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie2StreckenHer_15_0() {
@@ -636,6 +835,18 @@
         bounds_group.addLayer(layer_Linie2StreckenHer_15);
         map.addLayer(layer_Linie2StreckenHer_15);
         function pop_Linie2StreckenHin_16(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie2StreckenHin_16_0() {
@@ -662,6 +873,18 @@
         bounds_group.addLayer(layer_Linie2StreckenHin_16);
         map.addLayer(layer_Linie2StreckenHin_16);
         function pop_Linie2Stationen_17(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie2Stationen_17_0() {
@@ -719,6 +942,18 @@
         bounds_group.addLayer(layer_Linie2Stationen_17);
         map.addLayer(layer_Linie2Stationen_17);
         function pop_Linie1StreckenHer_18(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie1StreckenHer_18_0() {
@@ -745,6 +980,18 @@
         bounds_group.addLayer(layer_Linie1StreckenHer_18);
         map.addLayer(layer_Linie1StreckenHer_18);
         function pop_Linie1StreckenHin_19(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie1StreckenHin_19_0() {
@@ -771,6 +1018,18 @@
         bounds_group.addLayer(layer_Linie1StreckenHin_19);
         map.addLayer(layer_Linie1StreckenHin_19);
         function pop_Linie1Stationen_20(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
         }
 
         function style_Linie1Stationen_20_0() {
@@ -832,7 +1091,19 @@
         });
         overlay_OpenStreetMap_21.addTo(map);
         map.addLayer(overlay_OpenStreetMap_21);
-        function pop_MergedStrecken_22(feature, layer) {
+        function pop_AllStrecken_22(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['id'] !== null ? Autolinker.link(String(feature.properties['id'])) : '') + '</td>\
@@ -856,9 +1127,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_MergedStrecken_22_0() {
+        function style_AllStrecken_22_0() {
             return {
-                pane: 'pane_MergedStrecken_22',
+                pane: 'pane_AllStrecken_22',
                 opacity: 1,
                 color: 'rgba(0,0,0,1.0)',
                 dashArray: '',
@@ -868,9 +1139,9 @@
                 fillOpacity: 0,
             }
         }
-        function style_MergedStrecken_22_1() {
+        function style_AllStrecken_22_1() {
             return {
-                pane: 'pane_MergedStrecken_22',
+                pane: 'pane_AllStrecken_22',
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
@@ -880,18 +1151,30 @@
                 fillOpacity: 0,
             }
         }
-        map.createPane('pane_MergedStrecken_22');
-        map.getPane('pane_MergedStrecken_22').style.zIndex = 422;
-        map.getPane('pane_MergedStrecken_22').style['mix-blend-mode'] = 'normal';
-        var layer_MergedStrecken_22 = new L.geoJson.multiStyle(json_MergedStrecken_22, {
+        map.createPane('pane_AllStrecken_22');
+        map.getPane('pane_AllStrecken_22').style.zIndex = 322;
+        map.getPane('pane_AllStrecken_22').style['mix-blend-mode'] = 'normal';
+        var layer_AllStrecken_22 = new L.geoJson.multiStyle(json_AllStrecken_22, {
             attribution: '<a href=""></a>',
-            pane: 'pane_MergedStrecken_22',
-            onEachFeature: pop_MergedStrecken_22,
-            styles: [style_MergedStrecken_22_0,style_MergedStrecken_22_1,]
+            pane: 'pane_AllStrecken_22',
+            onEachFeature: pop_AllStrecken_22,
+            styles: [style_AllStrecken_22_0,style_AllStrecken_22_1,]
         });
-        bounds_group.addLayer(layer_MergedStrecken_22);
-        map.addLayer(layer_MergedStrecken_22);
+        bounds_group.addLayer(layer_AllStrecken_22);
+        map.addLayer(layer_AllStrecken_22);
         function pop_Merged_23(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['id'] !== null ? Autolinker.link(String(feature.properties['id'])) : '') + '</td>\
@@ -912,13 +1195,7 @@
                         <td colspan="2">' + (feature.properties['Her_length'] !== null ? Autolinker.link(String(feature.properties['Her_length'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Hin_1Stati'] !== null ? Autolinker.link(String(feature.properties['Hin_1Stati'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['layer'] !== null ? Autolinker.link(String(feature.properties['layer'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['path'] !== null ? Autolinker.link(String(feature.properties['path'])) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -940,7 +1217,7 @@
             }
         }
         map.createPane('pane_Merged_23');
-        map.getPane('pane_Merged_23').style.zIndex = 423;
+        map.getPane('pane_Merged_23').style.zIndex = 523;
         map.getPane('pane_Merged_23').style['mix-blend-mode'] = 'normal';
         var layer_Merged_23 = new L.geoJson(json_Merged_23, {
             attribution: '<a href=""></a>',
@@ -957,6 +1234,18 @@
         bounds_group.addLayer(layer_Merged_23);
         map.addLayer(layer_Merged_23);
         function pop_BremenBoundBox_24(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['id'] !== null ? Autolinker.link(String(feature.properties['id'])) : '') + '</td>\
@@ -1090,9 +1379,9 @@
                 map.removeLayer(layer_Linie1Stationen_20);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
-                map.addLayer(layer_MergedStrecken_22);
+                map.addLayer(layer_AllStrecken_22);
             } else if (map.getZoom() > 19 || map.getZoom() < 11) {
-                map.removeLayer(layer_MergedStrecken_22);
+                map.removeLayer(layer_AllStrecken_22);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
                 map.addLayer(layer_Merged_23);
@@ -1201,9 +1490,9 @@
                 map.removeLayer(layer_Linie1Stationen_20);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
-                map.addLayer(layer_MergedStrecken_22);
+                map.addLayer(layer_AllStrecken_22);
             } else if (map.getZoom() > 19 || map.getZoom() < 11) {
-                map.removeLayer(layer_MergedStrecken_22);
+                map.removeLayer(layer_AllStrecken_22);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
                 map.addLayer(layer_Merged_23);
@@ -1211,7 +1500,7 @@
                 map.removeLayer(layer_Merged_23);
             }
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/BremenBoundBox_24.png" /> BremenBoundBox': layer_BremenBoundBox_24,'<img src="legend/Merged_23.png" /> Merged': layer_Merged_23,'<img src="legend/MergedStrecken_22.png" /> MergedStrecken': layer_MergedStrecken_22,"OpenStreetMap": overlay_OpenStreetMap_21,'<img src="legend/Linie1Stationen_20.png" /> Linie1Stationen': layer_Linie1Stationen_20,'<img src="legend/Linie1StreckenHin_19.png" /> Linie1StreckenHin': layer_Linie1StreckenHin_19,'<img src="legend/Linie1StreckenHer_18.png" /> Linie1StreckenHer': layer_Linie1StreckenHer_18,'<img src="legend/Linie2Stationen_17.png" /> Linie2Stationen': layer_Linie2Stationen_17,'<img src="legend/Linie2StreckenHin_16.png" /> Linie2StreckenHin': layer_Linie2StreckenHin_16,'<img src="legend/Linie2StreckenHer_15.png" /> Linie2StreckenHer': layer_Linie2StreckenHer_15,'<img src="legend/Linie3Stationen_14.png" /> Linie3Stationen': layer_Linie3Stationen_14,'<img src="legend/Linie3StreckenHin_13.png" /> Linie3StreckenHin': layer_Linie3StreckenHin_13,'<img src="legend/Linie3StreckenHer_12.png" /> Linie3StreckenHer': layer_Linie3StreckenHer_12,'<img src="legend/Linie4Stationen_11.png" /> Linie4Stationen': layer_Linie4Stationen_11,'<img src="legend/Linie4StreckenHin_10.png" /> Linie4StreckenHin': layer_Linie4StreckenHin_10,'<img src="legend/Linie4StreckenHer_9.png" /> Linie4StreckenHer': layer_Linie4StreckenHer_9,'<img src="legend/Linie6Stationen_8.png" /> Linie6Stationen': layer_Linie6Stationen_8,'<img src="legend/Linie6StreckenHin_7.png" /> Linie6StreckenHin': layer_Linie6StreckenHin_7,'<img src="legend/Linie6StreckenHer_6.png" /> Linie6StreckenHer': layer_Linie6StreckenHer_6,'<img src="legend/Linie8Stationen_5.png" /> Linie8Stationen': layer_Linie8Stationen_5,'<img src="legend/Linie8StreckenHin_4.png" /> Linie8StreckenHin': layer_Linie8StreckenHin_4,'<img src="legend/Linie8StreckenHer_3.png" /> Linie8StreckenHer': layer_Linie8StreckenHer_3,'<img src="legend/Linie10Stationen_2.png" /> Linie10Stationen': layer_Linie10Stationen_2,'<img src="legend/Linie10StreckenHin_1.png" /> Linie10StreckenHin': layer_Linie10StreckenHin_1,'<img src="legend/Linie10StreckenHer_0.png" /> Linie10StreckenHer': layer_Linie10StreckenHer_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/BremenBoundBox_24.png" /> BremenBoundBox': layer_BremenBoundBox_24,'<img src="legend/Merged_23.png" /> Merged': layer_Merged_23,'<img src="legend/AllStrecken_22.png" /> AllStrecken': layer_AllStrecken_22,"OpenStreetMap": overlay_OpenStreetMap_21,'<img src="legend/Linie1Stationen_20.png" /> Linie1Stationen': layer_Linie1Stationen_20,'<img src="legend/Linie1StreckenHin_19.png" /> Linie1StreckenHin': layer_Linie1StreckenHin_19,'<img src="legend/Linie1StreckenHer_18.png" /> Linie1StreckenHer': layer_Linie1StreckenHer_18,'<img src="legend/Linie2Stationen_17.png" /> Linie2Stationen': layer_Linie2Stationen_17,'<img src="legend/Linie2StreckenHin_16.png" /> Linie2StreckenHin': layer_Linie2StreckenHin_16,'<img src="legend/Linie2StreckenHer_15.png" /> Linie2StreckenHer': layer_Linie2StreckenHer_15,'<img src="legend/Linie3Stationen_14.png" /> Linie3Stationen': layer_Linie3Stationen_14,'<img src="legend/Linie3StreckenHin_13.png" /> Linie3StreckenHin': layer_Linie3StreckenHin_13,'<img src="legend/Linie3StreckenHer_12.png" /> Linie3StreckenHer': layer_Linie3StreckenHer_12,'<img src="legend/Linie4Stationen_11.png" /> Linie4Stationen': layer_Linie4Stationen_11,'<img src="legend/Linie4StreckenHin_10.png" /> Linie4StreckenHin': layer_Linie4StreckenHin_10,'<img src="legend/Linie4StreckenHer_9.png" /> Linie4StreckenHer': layer_Linie4StreckenHer_9,'<img src="legend/Linie6Stationen_8.png" /> Linie6Stationen': layer_Linie6Stationen_8,'<img src="legend/Linie6StreckenHin_7.png" /> Linie6StreckenHin': layer_Linie6StreckenHin_7,'<img src="legend/Linie6StreckenHer_6.png" /> Linie6StreckenHer': layer_Linie6StreckenHer_6,'<img src="legend/Linie8Stationen_5.png" /> Linie8Stationen': layer_Linie8Stationen_5,'<img src="legend/Linie8StreckenHin_4.png" /> Linie8StreckenHin': layer_Linie8StreckenHin_4,'<img src="legend/Linie8StreckenHer_3.png" /> Linie8StreckenHer': layer_Linie8StreckenHer_3,'<img src="legend/Linie10Stationen_2.png" /> Linie10Stationen': layer_Linie10Stationen_2,'<img src="legend/Linie10StreckenHin_1.png" /> Linie10StreckenHin': layer_Linie10StreckenHin_1,'<img src="legend/Linie10StreckenHer_0.png" /> Linie10StreckenHer': layer_Linie10StreckenHer_0,}).addTo(map);
         map.on("zoomend", function(){
 
                 if (map.hasLayer(layer_Linie10Stationen_2)) {
@@ -1461,6 +1750,11 @@
                         });
                     }
                 }
+        map.addControl(new L.Control.Search({
+            layer: layer_Merged_23,
+            initial: false,
+            hideMarkerOnCollapse: true,
+            propertyName: 'name'}));
         resetLabels([layer_Linie10Stationen_2,layer_Linie8Stationen_5,layer_Linie6Stationen_8,layer_Linie4Stationen_11,layer_Linie3Stationen_14,layer_Linie2Stationen_17,layer_Linie1Stationen_20]);
         map.on("zoomend", function(){
             resetLabels([layer_Linie10Stationen_2,layer_Linie8Stationen_5,layer_Linie6Stationen_8,layer_Linie4Stationen_11,layer_Linie3Stationen_14,layer_Linie2Stationen_17,layer_Linie1Stationen_20]);
@@ -1471,6 +1765,49 @@
         map.on("layerremove", function(){
             resetLabels([layer_Linie10Stationen_2,layer_Linie8Stationen_5,layer_Linie6Stationen_8,layer_Linie4Stationen_11,layer_Linie3Stationen_14,layer_Linie2Stationen_17,layer_Linie1Stationen_20]);
         });
+
+
+        console.log(json_Merged_23.features);
+        //get unique Stations
+        var stationMap = [];
+        for(var k = 0; k < json_Merged_23.features.length; k++){
+            var station = json_Merged_23.features[k].properties;
+
+            if(!containsStationWithName(stationMap, station.name)){
+                stationMap[station.name] = [];
+                var mapEntry = stationMap[station.name];
+                mapEntry["name"] = station.name;
+                mapEntry["posibleConnections"]=[];
+            }
+            var mapEntry = stationMap[station.name];
+            if(station.Her_Statio != null){
+                console.log("new connection");
+                var connection = [];
+                connection["Station"] = station.Her_Statio;
+                connection["Length"] = station.Her_length;
+                connection["Linie"] = station.layer;
+                mapEntry.posibleConnections.push(connection)
+            }
+            if(station.Hin_Statio != null){
+                var connection = [];
+                connection["Station"] = station.Hin_Statio;
+                connection["Length"] = station.Hin_length;
+                connection["Linie"] = station.layer;
+                mapEntry.posibleConnections.push(connection)
+            }
+        }
+
+        console.log(stationMap);
+
+        function containsStationWithName(array, obj) {
+            for (var i = 0; i < array.length; i++) {
+                if (array[i].name === obj) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         </script>
     </body>
 </html>
