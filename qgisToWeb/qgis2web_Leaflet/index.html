@@ -20,10 +20,9 @@
         <title></title>
     </head>
     <body>
-        <div id="map">
+
+        <div style="z-index:99" id="map">
         </div>
-        <input type="text">
-        </input>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
         <script src="js/multi-style-layer.js"></script>
@@ -72,6 +71,7 @@
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
+
         function setBounds() {
         }
         function pop_Linie10StreckenHer_0(feature, layer) {
@@ -112,6 +112,10 @@
         });
         bounds_group.addLayer(layer_Linie10StreckenHer_0);
         map.addLayer(layer_Linie10StreckenHer_0);
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
         function pop_Linie10StreckenHin_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1790,8 +1794,37 @@
             graph.add(key, tmp);
         }
 
-        console.log(graph);
-        console.log(graph.findShortestPath('Wilhelm-Kaisen-Brücke', 'Domsheide'));
+        myControl = L.control({position: 'topright'});
+        myControl.onAdd = function(map) {
+            this._div = L.DomUtil.create('div', 'myControl');
+            this._div.innerHTML = '<div style="background-color:white; width:175px; height:40px; padding:5px;">' +
+                                  'Start-Station: ' +
+                                  '<input id="station1" type="text" value="" />' +
+                                  '</div>' +
+                                  '<div style="background-color:white; width:175px; height:40px; padding:5px;">' +
+                                  'Ziel-Station:   ' +
+                                  '<input id="station2" type="text" value="" />' +
+                                  '</div>' +
+                                  '<div style="background-color:white; width:175px; height:40px; padding:5px;">' +
+                                  '<button onclick="calculatePath()">Strecke berechnen</button>' +
+                                  '</div>'
+            return this._div;
+        }
+        myControl.addTo(map);
+
+        function controlEnter(e) {
+            map.dragging.disable();
+        }
+        function controlLeave() {
+            map.dragging.enable();
+        }
+
+        function calculatePath() {
+            console.log("------------------------------------------")
+            var station1 = document.getElementById("station1").value;
+            var station2 = document.getElementById("station2").value;
+            console.log(graph.findShortestPath(station1, station2));
+        }
         </script>
     </body>
 </html>
