@@ -1,41 +1,45 @@
 
-
-        //console.log(json_Merged_23.features);
+        console.log(json_AlleStationen_23.features);
         //get unique Stations
-        var stationMap = [];
-        for(var k = 0; k < json_Merged_23.features.length; k++){
-            var station = json_Merged_23.features[k].properties;
+        var stationMap = new Map();
+        for(var k = 0; k < json_AlleStationen_23.features.length; k++){
+            var station = json_AlleStationen_23.features[k].properties;
 
-            if(!containsStationWithName(stationMap, station.name)){
-                stationMap[station.name] = [];
-                var mapEntry = stationMap[station.name];
+            if(stationMap.get(station.name) === undefined){
+                stationMap.set(station.name, {});
+                var mapEntry = stationMap.get(station.name);
                 mapEntry["name"] = station.name;
-                mapEntry["posibleConnections"]=[];
+                mapEntry["posibleConnections"] = [];
             }
-            var mapEntry = stationMap[station.name];
+
+            var mapEntry = stationMap.get(station.name);
             if(station.Her_Statio != null){
-                var connection = [];
+                var connection = {};
                 connection["Station"] = station.Her_Statio;
                 connection["Length"] = station.Her_length;
                 connection["Linie"] = station.layer;
-                mapEntry.posibleConnections.push(connection)
+                mapEntry.posibleConnections.push(connection);
             }
             if(station.Hin_Statio != null){
-                var connection = [];
+                var connection = {};
                 connection["Station"] = station.Hin_Statio;
                 connection["Length"] = station.Hin_length;
                 connection["Linie"] = station.layer;
-                mapEntry.posibleConnections.push(connection)
+                mapEntry.posibleConnections.push(connection);
             }
         }
 
         console.log(stationMap);
 
-        function containsStationWithName(array, obj) {
-            for (var i = 0; i < array.length; i++) {
-                if (array[i].name === obj) {
-                    return true;
-                }
+        var graph = new Graph();
+        console.log(stationMap.size);
+        for (var [key, value] of stationMap) {
+            var tmp = {};
+            for(var m = 0;m < value.posibleConnections.length; m++){
+                tmp[value.posibleConnections[m].Station.toString()] = value.posibleConnections[m].Length;
             }
-            return false;
+            graph.add(key, tmp);
         }
+
+        console.log(graph);
+        console.log(graph.findShortestPath('Wilhelm-Kaisen-Brücke', 'Domsheide'));

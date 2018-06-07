@@ -24,7 +24,6 @@
         </div>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
-        <script src="js/Graph.js"></script>
         <script src="js/multi-style-layer.js"></script>
         <script src="js/leaflet.rotatedMarker.js"></script>
         <script src="js/leaflet.pattern.js"></script>
@@ -33,6 +32,7 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
+        <script src="js/Graph.js"></script>
         <script src="js/leaflet-search.js"></script>
         <script src="data/Linie10StreckenHer_0.js"></script>
         <script src="data/Linie10StreckenHin_1.js"></script>
@@ -55,8 +55,8 @@
         <script src="data/Linie1StreckenHer_18.js"></script>
         <script src="data/Linie1StreckenHin_19.js"></script>
         <script src="data/Linie1Stationen_20.js"></script>
-        <script src="data/AllStrecken_22.js"></script>
-        <script src="data/Merged_23.js"></script>
+        <script src="data/AlleStrecken_22.js"></script>
+        <script src="data/AlleStationen_23.js"></script>
         <script src="data/BremenBoundBox_24.js"></script>
         <script>
         var highlightLayer;
@@ -66,7 +66,7 @@
         }
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[53.057320968027454,8.758715352638006],[53.091621479992696,8.86104019083241]]);
+        }).fitBounds([[53.05336167735012,8.67981211898662],[53.121941686494594,8.88446179537547]]);
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
@@ -1092,7 +1092,7 @@
         });
         overlay_OpenStreetMap_21.addTo(map);
         map.addLayer(overlay_OpenStreetMap_21);
-        function pop_AllStrecken_22(feature, layer) {
+        function pop_AlleStrecken_22(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if (typeof layer.closePopup == 'function') {
@@ -1128,9 +1128,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_AllStrecken_22_0() {
+        function style_AlleStrecken_22_0() {
             return {
-                pane: 'pane_AllStrecken_22',
+                pane: 'pane_AlleStrecken_22',
                 opacity: 1,
                 color: 'rgba(0,0,0,1.0)',
                 dashArray: '',
@@ -1140,9 +1140,9 @@
                 fillOpacity: 0,
             }
         }
-        function style_AllStrecken_22_1() {
+        function style_AlleStrecken_22_1() {
             return {
-                pane: 'pane_AllStrecken_22',
+                pane: 'pane_AlleStrecken_22',
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
@@ -1152,18 +1152,18 @@
                 fillOpacity: 0,
             }
         }
-        map.createPane('pane_AllStrecken_22');
-        map.getPane('pane_AllStrecken_22').style.zIndex = 322;
-        map.getPane('pane_AllStrecken_22').style['mix-blend-mode'] = 'normal';
-        var layer_AllStrecken_22 = new L.geoJson.multiStyle(json_AllStrecken_22, {
+        map.createPane('pane_AlleStrecken_22');
+        map.getPane('pane_AlleStrecken_22').style.zIndex = 322;
+        map.getPane('pane_AlleStrecken_22').style['mix-blend-mode'] = 'normal';
+        var layer_AlleStrecken_22 = new L.geoJson.multiStyle(json_AlleStrecken_22, {
             attribution: '<a href=""></a>',
-            pane: 'pane_AllStrecken_22',
-            onEachFeature: pop_AllStrecken_22,
-            styles: [style_AllStrecken_22_0,style_AllStrecken_22_1,]
+            pane: 'pane_AlleStrecken_22',
+            onEachFeature: pop_AlleStrecken_22,
+            styles: [style_AlleStrecken_22_0,style_AlleStrecken_22_1,]
         });
-        bounds_group.addLayer(layer_AllStrecken_22);
-        map.addLayer(layer_AllStrecken_22);
-        function pop_Merged_23(feature, layer) {
+        bounds_group.addLayer(layer_AlleStrecken_22);
+        map.addLayer(layer_AlleStrecken_22);
+        function pop_AlleStationen_23(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if (typeof layer.closePopup == 'function') {
@@ -1198,13 +1198,16 @@
                     <tr>\
                         <td colspan="2">' + (feature.properties['layer'] !== null ? Autolinker.link(String(feature.properties['layer'])) : '') + '</td>\
                     </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['path'] !== null ? Autolinker.link(String(feature.properties['path'])) : '') + '</td>\
+                    </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_Merged_23_0() {
+        function style_AlleStationen_23_0() {
             return {
-                pane: 'pane_Merged_23',
+                pane: 'pane_AlleStationen_23',
                 radius: 14.0,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
@@ -1217,23 +1220,23 @@
                 fillColor: 'rgba(255,255,255,1.0)',
             }
         }
-        map.createPane('pane_Merged_23');
-        map.getPane('pane_Merged_23').style.zIndex = 523;
-        map.getPane('pane_Merged_23').style['mix-blend-mode'] = 'normal';
-        var layer_Merged_23 = new L.geoJson(json_Merged_23, {
+        map.createPane('pane_AlleStationen_23');
+        map.getPane('pane_AlleStationen_23').style.zIndex = 523;
+        map.getPane('pane_AlleStationen_23').style['mix-blend-mode'] = 'normal';
+        var layer_AlleStationen_23 = new L.geoJson(json_AlleStationen_23, {
             attribution: '<a href=""></a>',
-            pane: 'pane_Merged_23',
-            onEachFeature: pop_Merged_23,
+            pane: 'pane_AlleStationen_23',
+            onEachFeature: pop_AlleStationen_23,
             pointToLayer: function (feature, latlng) {
                 var context = {
                     feature: feature,
                     variables: {}
                 };
-                return L.circleMarker(latlng, style_Merged_23_0(feature));
+                return L.circleMarker(latlng, style_AlleStationen_23_0(feature));
             },
         });
-        bounds_group.addLayer(layer_Merged_23);
-        map.addLayer(layer_Merged_23);
+        bounds_group.addLayer(layer_AlleStationen_23);
+        map.addLayer(layer_AlleStationen_23);
         function pop_BremenBoundBox_24(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1380,14 +1383,14 @@
                 map.removeLayer(layer_Linie1Stationen_20);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
-                map.addLayer(layer_AllStrecken_22);
+                map.addLayer(layer_AlleStrecken_22);
             } else if (map.getZoom() > 19 || map.getZoom() < 11) {
-                map.removeLayer(layer_AllStrecken_22);
+                map.removeLayer(layer_AlleStrecken_22);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
-                map.addLayer(layer_Merged_23);
+                map.addLayer(layer_AlleStationen_23);
             } else if (map.getZoom() > 19 || map.getZoom() < 11) {
-                map.removeLayer(layer_Merged_23);
+                map.removeLayer(layer_AlleStationen_23);
             }
         });
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
@@ -1491,17 +1494,17 @@
                 map.removeLayer(layer_Linie1Stationen_20);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
-                map.addLayer(layer_AllStrecken_22);
+                map.addLayer(layer_AlleStrecken_22);
             } else if (map.getZoom() > 19 || map.getZoom() < 11) {
-                map.removeLayer(layer_AllStrecken_22);
+                map.removeLayer(layer_AlleStrecken_22);
             }
             if (map.getZoom() <= 19 && map.getZoom() >= 11) {
-                map.addLayer(layer_Merged_23);
+                map.addLayer(layer_AlleStationen_23);
             } else if (map.getZoom() > 19 || map.getZoom() < 11) {
-                map.removeLayer(layer_Merged_23);
+                map.removeLayer(layer_AlleStationen_23);
             }
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/BremenBoundBox_24.png" /> BremenBoundBox': layer_BremenBoundBox_24,'<img src="legend/Merged_23.png" /> Merged': layer_Merged_23,'<img src="legend/AllStrecken_22.png" /> AllStrecken': layer_AllStrecken_22,"OpenStreetMap": overlay_OpenStreetMap_21,'<img src="legend/Linie1Stationen_20.png" /> Linie1Stationen': layer_Linie1Stationen_20,'<img src="legend/Linie1StreckenHin_19.png" /> Linie1StreckenHin': layer_Linie1StreckenHin_19,'<img src="legend/Linie1StreckenHer_18.png" /> Linie1StreckenHer': layer_Linie1StreckenHer_18,'<img src="legend/Linie2Stationen_17.png" /> Linie2Stationen': layer_Linie2Stationen_17,'<img src="legend/Linie2StreckenHin_16.png" /> Linie2StreckenHin': layer_Linie2StreckenHin_16,'<img src="legend/Linie2StreckenHer_15.png" /> Linie2StreckenHer': layer_Linie2StreckenHer_15,'<img src="legend/Linie3Stationen_14.png" /> Linie3Stationen': layer_Linie3Stationen_14,'<img src="legend/Linie3StreckenHin_13.png" /> Linie3StreckenHin': layer_Linie3StreckenHin_13,'<img src="legend/Linie3StreckenHer_12.png" /> Linie3StreckenHer': layer_Linie3StreckenHer_12,'<img src="legend/Linie4Stationen_11.png" /> Linie4Stationen': layer_Linie4Stationen_11,'<img src="legend/Linie4StreckenHin_10.png" /> Linie4StreckenHin': layer_Linie4StreckenHin_10,'<img src="legend/Linie4StreckenHer_9.png" /> Linie4StreckenHer': layer_Linie4StreckenHer_9,'<img src="legend/Linie6Stationen_8.png" /> Linie6Stationen': layer_Linie6Stationen_8,'<img src="legend/Linie6StreckenHin_7.png" /> Linie6StreckenHin': layer_Linie6StreckenHin_7,'<img src="legend/Linie6StreckenHer_6.png" /> Linie6StreckenHer': layer_Linie6StreckenHer_6,'<img src="legend/Linie8Stationen_5.png" /> Linie8Stationen': layer_Linie8Stationen_5,'<img src="legend/Linie8StreckenHin_4.png" /> Linie8StreckenHin': layer_Linie8StreckenHin_4,'<img src="legend/Linie8StreckenHer_3.png" /> Linie8StreckenHer': layer_Linie8StreckenHer_3,'<img src="legend/Linie10Stationen_2.png" /> Linie10Stationen': layer_Linie10Stationen_2,'<img src="legend/Linie10StreckenHin_1.png" /> Linie10StreckenHin': layer_Linie10StreckenHin_1,'<img src="legend/Linie10StreckenHer_0.png" /> Linie10StreckenHer': layer_Linie10StreckenHer_0,}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/BremenBoundBox_24.png" /> BremenBoundBox': layer_BremenBoundBox_24,'<img src="legend/AlleStationen_23.png" /> AlleStationen': layer_AlleStationen_23,'<img src="legend/AlleStrecken_22.png" /> AlleStrecken': layer_AlleStrecken_22,"OpenStreetMap": overlay_OpenStreetMap_21,'<img src="legend/Linie1Stationen_20.png" /> Linie1Stationen': layer_Linie1Stationen_20,'<img src="legend/Linie1StreckenHin_19.png" /> Linie1StreckenHin': layer_Linie1StreckenHin_19,'<img src="legend/Linie1StreckenHer_18.png" /> Linie1StreckenHer': layer_Linie1StreckenHer_18,'<img src="legend/Linie2Stationen_17.png" /> Linie2Stationen': layer_Linie2Stationen_17,'<img src="legend/Linie2StreckenHin_16.png" /> Linie2StreckenHin': layer_Linie2StreckenHin_16,'<img src="legend/Linie2StreckenHer_15.png" /> Linie2StreckenHer': layer_Linie2StreckenHer_15,'<img src="legend/Linie3Stationen_14.png" /> Linie3Stationen': layer_Linie3Stationen_14,'<img src="legend/Linie3StreckenHin_13.png" /> Linie3StreckenHin': layer_Linie3StreckenHin_13,'<img src="legend/Linie3StreckenHer_12.png" /> Linie3StreckenHer': layer_Linie3StreckenHer_12,'<img src="legend/Linie4Stationen_11.png" /> Linie4Stationen': layer_Linie4Stationen_11,'<img src="legend/Linie4StreckenHin_10.png" /> Linie4StreckenHin': layer_Linie4StreckenHin_10,'<img src="legend/Linie4StreckenHer_9.png" /> Linie4StreckenHer': layer_Linie4StreckenHer_9,'<img src="legend/Linie6Stationen_8.png" /> Linie6Stationen': layer_Linie6Stationen_8,'<img src="legend/Linie6StreckenHin_7.png" /> Linie6StreckenHin': layer_Linie6StreckenHin_7,'<img src="legend/Linie6StreckenHer_6.png" /> Linie6StreckenHer': layer_Linie6StreckenHer_6,'<img src="legend/Linie8Stationen_5.png" /> Linie8Stationen': layer_Linie8Stationen_5,'<img src="legend/Linie8StreckenHin_4.png" /> Linie8StreckenHin': layer_Linie8StreckenHin_4,'<img src="legend/Linie8StreckenHer_3.png" /> Linie8StreckenHer': layer_Linie8StreckenHer_3,'<img src="legend/Linie10Stationen_2.png" /> Linie10Stationen': layer_Linie10Stationen_2,'<img src="legend/Linie10StreckenHin_1.png" /> Linie10StreckenHin': layer_Linie10StreckenHin_1,'<img src="legend/Linie10StreckenHer_0.png" /> Linie10StreckenHer': layer_Linie10StreckenHer_0,}).addTo(map);
         map.on("zoomend", function(){
 
                 if (map.hasLayer(layer_Linie10Stationen_2)) {
@@ -1752,7 +1755,7 @@
                     }
                 }
         map.addControl(new L.Control.Search({
-            layer: layer_Merged_23,
+            layer: layer_AlleStationen_23,
             initial: false,
             hideMarkerOnCollapse: true,
             propertyName: 'name'}));
@@ -1768,47 +1771,50 @@
         });
 
 
-        console.log(json_Merged_23.features);
+        console.log(json_AlleStationen_23.features);
         //get unique Stations
-        var stationMap = [];
-        for(var k = 0; k < json_Merged_23.features.length; k++){
-            var station = json_Merged_23.features[k].properties;
+        var stationMap = new Map();
+        for(var k = 0; k < json_AlleStationen_23.features.length; k++){
+            var station = json_AlleStationen_23.features[k].properties;
 
-            if(!containsStationWithName(stationMap, station.name)){
-                stationMap[station.name] = [];
-                var mapEntry = stationMap[station.name];
+            if(stationMap.get(station.name) === undefined){
+                stationMap.set(station.name, {});
+                var mapEntry = stationMap.get(station.name);
                 mapEntry["name"] = station.name;
-                mapEntry["posibleConnections"]=[];
+                mapEntry["posibleConnections"] = [];
             }
-            var mapEntry = stationMap[station.name];
+
+            var mapEntry = stationMap.get(station.name);
             if(station.Her_Statio != null){
-                console.log("new connection");
-                var connection = [];
+                var connection = {};
                 connection["Station"] = station.Her_Statio;
                 connection["Length"] = station.Her_length;
                 connection["Linie"] = station.layer;
-                mapEntry.posibleConnections.push(connection)
+                mapEntry.posibleConnections.push(connection);
             }
             if(station.Hin_Statio != null){
-                var connection = [];
+                var connection = {};
                 connection["Station"] = station.Hin_Statio;
                 connection["Length"] = station.Hin_length;
                 connection["Linie"] = station.layer;
-                mapEntry.posibleConnections.push(connection)
+                mapEntry.posibleConnections.push(connection);
             }
         }
 
         console.log(stationMap);
 
-        function containsStationWithName(array, obj) {
-            for (var i = 0; i < array.length; i++) {
-                if (array[i].name === obj) {
-                    return true;
-                }
+        var graph = new Graph();
+        console.log(stationMap.size);
+        for (var [key, value] of stationMap) {
+            var tmp = {};
+            for(var m = 0;m < value.posibleConnections.length; m++){
+                tmp[value.posibleConnections[m].Station.toString()] = value.posibleConnections[m].Length;
             }
-            return false;
+            graph.add(key, tmp);
         }
 
+        console.log(graph);
+        console.log(graph.findShortestPath('Wilhelm-Kaisen-Brücke', 'Domsheide'));
         </script>
     </body>
 </html>
