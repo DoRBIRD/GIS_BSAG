@@ -1808,7 +1808,7 @@
         for (var [key, value] of stationMap) {
             var tmp = {};
             for(var m = 0;m < value.posibleConnections.length; m++){
-                tmp[value.posibleConnections[m].Station.toString()] = value.posibleConnections[m].Length;
+                tmp[value.posibleConnections[m].Station.toString()] = parseInt(value.posibleConnections[m].Length);
             }
             graph.add(key, tmp);
         }

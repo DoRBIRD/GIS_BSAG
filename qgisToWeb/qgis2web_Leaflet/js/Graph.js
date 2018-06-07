@@ -65,13 +65,3 @@ function getNodeWithMinimumDistance(Q, dist) {
     }
     return nodeWithMinimumDistance;
 }
-
-
-var G = new Graph();
-G.add('A', { B: 1, C: 4 });
-G.add('C', { D: 3 });
-G.add('B', { C: 2, D: 6 });
-G.add('D');
-
-console.log(G);
-console.log(G.findShortestPath('A', 'D'));
