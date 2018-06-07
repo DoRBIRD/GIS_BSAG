@@ -22,6 +22,8 @@
     <body>
         <div id="map">
         </div>
+        <input type="text">
+        </input>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
         <script src="js/multi-style-layer.js"></script>
@@ -1116,9 +1118,6 @@
                         <td colspan="2">' + (feature.properties['Station2'] !== null ? Autolinker.link(String(feature.properties['Station2'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['length'] !== null ? Autolinker.link(String(feature.properties['length'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['layer'] !== null ? Autolinker.link(String(feature.properties['layer'])) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1178,28 +1177,7 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['id'] !== null ? Autolinker.link(String(feature.properties['id'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['name'] !== null ? Autolinker.link(String(feature.properties['name'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Hin_Statio'] !== null ? Autolinker.link(String(feature.properties['Hin_Statio'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Hin_length'] !== null ? Autolinker.link(String(feature.properties['Hin_length'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Her_Statio'] !== null ? Autolinker.link(String(feature.properties['Her_Statio'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Her_length'] !== null ? Autolinker.link(String(feature.properties['Her_length'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['layer'] !== null ? Autolinker.link(String(feature.properties['layer'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['path'] !== null ? Autolinker.link(String(feature.properties['path'])) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -1504,7 +1482,6 @@
                 map.removeLayer(layer_AlleStationen_23);
             }
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/BremenBoundBox_24.png" /> BremenBoundBox': layer_BremenBoundBox_24,'<img src="legend/AlleStationen_23.png" /> AlleStationen': layer_AlleStationen_23,'<img src="legend/AlleStrecken_22.png" /> AlleStrecken': layer_AlleStrecken_22,"OpenStreetMap": overlay_OpenStreetMap_21,'<img src="legend/Linie1Stationen_20.png" /> Linie1Stationen': layer_Linie1Stationen_20,'<img src="legend/Linie1StreckenHin_19.png" /> Linie1StreckenHin': layer_Linie1StreckenHin_19,'<img src="legend/Linie1StreckenHer_18.png" /> Linie1StreckenHer': layer_Linie1StreckenHer_18,'<img src="legend/Linie2Stationen_17.png" /> Linie2Stationen': layer_Linie2Stationen_17,'<img src="legend/Linie2StreckenHin_16.png" /> Linie2StreckenHin': layer_Linie2StreckenHin_16,'<img src="legend/Linie2StreckenHer_15.png" /> Linie2StreckenHer': layer_Linie2StreckenHer_15,'<img src="legend/Linie3Stationen_14.png" /> Linie3Stationen': layer_Linie3Stationen_14,'<img src="legend/Linie3StreckenHin_13.png" /> Linie3StreckenHin': layer_Linie3StreckenHin_13,'<img src="legend/Linie3StreckenHer_12.png" /> Linie3StreckenHer': layer_Linie3StreckenHer_12,'<img src="legend/Linie4Stationen_11.png" /> Linie4Stationen': layer_Linie4Stationen_11,'<img src="legend/Linie4StreckenHin_10.png" /> Linie4StreckenHin': layer_Linie4StreckenHin_10,'<img src="legend/Linie4StreckenHer_9.png" /> Linie4StreckenHer': layer_Linie4StreckenHer_9,'<img src="legend/Linie6Stationen_8.png" /> Linie6Stationen': layer_Linie6Stationen_8,'<img src="legend/Linie6StreckenHin_7.png" /> Linie6StreckenHin': layer_Linie6StreckenHin_7,'<img src="legend/Linie6StreckenHer_6.png" /> Linie6StreckenHer': layer_Linie6StreckenHer_6,'<img src="legend/Linie8Stationen_5.png" /> Linie8Stationen': layer_Linie8Stationen_5,'<img src="legend/Linie8StreckenHin_4.png" /> Linie8StreckenHin': layer_Linie8StreckenHin_4,'<img src="legend/Linie8StreckenHer_3.png" /> Linie8StreckenHer': layer_Linie8StreckenHer_3,'<img src="legend/Linie10Stationen_2.png" /> Linie10Stationen': layer_Linie10Stationen_2,'<img src="legend/Linie10StreckenHin_1.png" /> Linie10StreckenHin': layer_Linie10StreckenHin_1,'<img src="legend/Linie10StreckenHer_0.png" /> Linie10StreckenHer': layer_Linie10StreckenHer_0,}).addTo(map);
         map.on("zoomend", function(){
 
                 if (map.hasLayer(layer_Linie10Stationen_2)) {
