@@ -1800,11 +1800,11 @@
             this._div = L.DomUtil.create('div', 'myControl');
             this._div.innerHTML = '<div style="background-color:white; width:175px; height:40px; padding:5px;">' +
                                   'Start-Station: ' +
-                                  '<input id="station1" type="text" value="" />' +
+                                  '<input id="station1" type="text" value="Flughafen" />' +
                                   '</div>' +
                                   '<div style="background-color:white; width:175px; height:40px; padding:5px;">' +
                                   'Ziel-Station:   ' +
-                                  '<input id="station2" type="text" value="" />' +
+                                  '<input id="station2" type="text" value="Hauptbahnhof" />' +
                                   '</div>' +
                                   '<div style="background-color:white; width:175px; height:40px; padding:5px;">' +
                                   '<button onclick="calculatePath()">Strecke berechnen</button>' +
@@ -1823,7 +1823,27 @@
         function calculatePath() {
             var station1 = document.getElementById("station1").value;
             var station2 = document.getElementById("station2").value;
-            console.log(graph.findShortestPath(station1, station2));
+            var route = graph.findShortestPath(station1, station2)
+            highlightRoute(route);
+            console.log(route);
+
+        }
+
+        function highlightRoute(route){
+            // Revert all
+            layer_AlleStationen_23.eachLayer(function (layer) {
+                    layer.setStyle({fillColor :'white'})
+            });
+
+            //highlightRoute
+            for(var haltestelle in route){
+                console.log(route[haltestelle]);
+                layer_AlleStationen_23.eachLayer(function (layer) {
+                    if(layer.feature.properties.name === route[haltestelle]) {
+                        layer.setStyle({fillColor :'yellow'})
+                    }
+                });
+            }
         }
         </script>
     </body>

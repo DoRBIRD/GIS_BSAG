@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/qgis2web_Leaflet.iml" filepath="$PROJECT_DIR$/.idea/qgis2web_Leaflet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qgis2web_Leaflet.iml" filepath="$PROJECT_DIR$/qgis2web_Leaflet.iml" />
     </modules>
   </component>
 </project>
