@@ -1763,6 +1763,7 @@
                 var mapEntry = stationMap.get(station.name);
                 mapEntry["name"] = station.name;
                 mapEntry["posibleConnections"] = [];
+
             }
 
             var mapEntry = stationMap.get(station.name);
@@ -1820,7 +1821,6 @@
         }
 
         function calculatePath() {
-            console.log("------------------------------------------")
             var station1 = document.getElementById("station1").value;
             var station2 = document.getElementById("station2").value;
             console.log(graph.findShortestPath(station1, station2));

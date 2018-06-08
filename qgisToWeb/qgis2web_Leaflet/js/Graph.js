@@ -13,12 +13,12 @@ Graph.prototype.getVertices = function() {
 
 Graph.prototype.findShortestPath = function(source, end) {
 
-    var remainingNodes = this.vertices;
-
+    var remainingNodes = {};
     var distanceOfNodes = {};
     var previousNodes = {};
 
     for (var vertex in this.vertices) {
+        remainingNodes[vertex] = this.vertices[vertex];
         distanceOfNodes[vertex] = Infinity;
         previousNodes[vertex] = undefined;
     }
