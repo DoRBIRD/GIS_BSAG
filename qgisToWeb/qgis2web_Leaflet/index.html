@@ -1166,7 +1166,7 @@
         });
         bounds_group.addLayer(layer_AlleStrecken_22);
         map.addLayer(layer_AlleStrecken_22);
-        function pop_AlleStationen_23(feature, layer) {
+        function pop_AlleStationen_23(feature, layer) {/*
             layer.on({
                 mouseout: function(e) {
                     if (typeof layer.closePopup == 'function') {
@@ -1178,12 +1178,19 @@
                     }
                 },
                 mouseover: highlightFeature,
-            });
-            var popupContent = '<table>\
+            });*/
+            var stationName = (feature.properties['name'] !== null ? Autolinker.link(String(feature.properties['name'])) : '').toString()
+            console.log(stationName)
+            var popupContent =
+                '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['name'] !== null ? Autolinker.link(String(feature.properties['name'])) : '') + '</td>\
                     </tr>\
-                </table>';
+                    <tr>\
+                    <td><button onclick="setStart(this)" value="'+stationName+'">Von hier</button></td>\
+                    <td><button onclick="setEnd(this)" value="'+stationName+'">Hier her</button></td>\
+                    </tr>\
+                </table>'
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1826,6 +1833,18 @@
             var route = graph.findShortestPath(station1, station2)
             highlightRoute(route);
             //console.log(route);
+        }
+
+        function setStart(tmp){
+            var station = tmp.value
+            var station1 = document.getElementById("station1");
+            station1.value = station;
+        }
+
+        function setEnd(tmp){
+            var station = tmp.value
+            var station1 = document.getElementById("station2");
+            station1.value = station;
         }
 
         function highlightRoute(route){
